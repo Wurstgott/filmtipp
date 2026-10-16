@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#F3CFCB">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-title" content="Filmtipp">
+<meta name="application-name" content="Filmtipp">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Filmtipp</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Libre+Caslon+Text:ital@0;1&display=swap">
+<style>
+/* Layout: eine symmetrische Hotelfassade — Schild, Stimmungsplaketten, Klingel in der Mitte, Karte darunter, Gästebuch als Merkliste */
+:root{
+  --bg:#F3CFCB;          /* Fassadenrosa */
+  --facade:#E9B7B3;      /* dunkleres Rosa für Rahmen */
+  --paper:#FFF4EA;       /* Briefpapier */
+  --ink:#5A1E2C;         /* Bordeaux */
+  --ink-soft:#8A4A55;
+  --mustard:#D79E2E;     /* heiter */
+  --powder:#8DB6CC;      /* düster */
+  --plum:#4B3A63;
+  --mint:#9CCDB6;
+  --line:#C98C8C;
+  --shadow:rgba(90,30,44,.18);
+  --font-sign:"Jost","Futura","Century Gothic","Avenir Next",sans-serif;
+  --font-body:"Libre Caslon Text","Iowan Old Style",Georgia,serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#2B1D31;--facade:#3B2944;--paper:#3A2A40;--ink:#F6D9D4;--ink-soft:#CDA9B0;
+  --mustard:#E6B24A;--powder:#86AFC6;--plum:#B7A6D6;--mint:#8FC3AB;--line:#6E4E72;--shadow:rgba(0,0,0,.35);color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#2B1D31;--facade:#3B2944;--paper:#3A2A40;--ink:#F6D9D4;--ink-soft:#CDA9B0;
+  --mustard:#E6B24A;--powder:#86AFC6;--plum:#B7A6D6;--mint:#8FC3AB;--line:#6E4E72;--shadow:rgba(0,0,0,.35);color-scheme:dark}
+
+/* Serien-Modus: Mint-Fassade, Petrol, Koralle */
+:root[data-kind="serie"]{--bg:#CFE3DA;--facade:#A9CFC2;--paper:#F7F6EC;--ink:#1E3B4A;--ink-soft:#4E6B78;--mustard:#E2725B;--mint:#F4D58D;--line:#8DB3A8;--plum:#4B3A63;--shadow:rgba(30,59,74,.18)}
+@media (prefers-color-scheme: dark){:root[data-kind="serie"]:not([data-theme="light"]){
+  --bg:#14262E;--facade:#1E3540;--paper:#233D48;--ink:#D8EEE6;--ink-soft:#9DBDB4;--mustard:#EE8A72;--mint:#E8C677;--line:#3D5E66;--plum:#B7A6D6;--shadow:rgba(0,0,0,.35)}}
+:root[data-kind="serie"][data-theme="dark"]{--bg:#14262E;--facade:#1E3540;--paper:#233D48;--ink:#D8EEE6;--ink-soft:#9DBDB4;--mustard:#EE8A72;--mint:#E8C677;--line:#3D5E66;--plum:#B7A6D6;--shadow:rgba(0,0,0,.35)}
+body{transition:background-color .45s ease,color .45s ease}
+.kind-switch{display:inline-flex;border:2px solid var(--ink);background:var(--paper);margin-top:-12px}
+.kind-switch button{font-family:var(--font-sign);text-transform:uppercase;letter-spacing:.22em;font-weight:600;font-size:.78rem;padding:9px 22px 9px 24px;color:var(--ink);transition:background .3s,color .3s}
+.kind-switch button+button{border-left:2px solid var(--ink)}
+.kind-switch button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+@media (prefers-reduced-motion: reduce){body,.kind-switch button{transition:none}}
+
+*{box-sizing:border-box}html,body{min-height:100%}[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{overflow-x:hidden;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.55;padding-inline:16px;padding-block:24px 56px}
+.wrap{max-width:520px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:28px;text-align:center}
+.caps{font-family:var(--font-sign);text-transform:uppercase;letter-spacing:.22em;font-weight:500}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+button:focus-visible,a:focus-visible,.card:focus-visible{outline:3px solid var(--mustard);outline-offset:3px}
+
+/* Schild */
+.sign{width:100%;background:var(--facade);border:3px solid var(--ink);padding:6px}
+.sign-inner{container-type:inline-size;border:1px solid var(--ink);padding:18px 12px 14px;display:flex;flex-direction:column;gap:6px;align-items:center}
+.sign h1{margin:0;font-family:var(--font-sign);font-weight:700;font-size:clamp(1.5rem,9cqi,3.4rem);letter-spacing:.2em;line-height:1;padding-left:.2em;white-space:nowrap;max-width:100%}
+.sign .sub{font-size:.68rem;color:var(--ink-soft)}
+.stars{font-size:.7rem;letter-spacing:.6em;padding-left:.6em;color:var(--mustard)}
+
+/* Stimmung */
+.section-label{font-size:.66rem;color:var(--ink-soft);margin-bottom:10px}
+.moods{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:100%}
+.mood{min-width:0;padding:14px 6px;border:2px solid var(--ink);background:var(--paper);font-family:var(--font-sign);text-transform:uppercase;letter-spacing:.24em;font-weight:600;font-size:.9rem;transition:background .2s,color .2s}
+.mood small{display:block;font-family:var(--font-body);text-transform:none;letter-spacing:0;font-weight:400;font-size:.78rem;font-style:italic;color:var(--ink-soft);margin-top:2px}
+.mood[aria-pressed="true"][data-mood="duester"]{background:var(--plum);color:var(--paper)}
+.mood[aria-pressed="true"][data-mood="heiter"]{background:var(--mustard);color:#3a1a12}
+.mood[aria-pressed="true"] small{color:inherit;opacity:.85}
+
+/* Anbieter */
+.providers{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.chip{font-family:var(--font-sign);text-transform:uppercase;letter-spacing:.16em;font-size:.7rem;font-weight:600;padding:6px 10px;border:1.5px dashed var(--ink);background:transparent}
+.chip.fixed{border-style:solid;background:var(--paper)}
+.chip.toggle[aria-pressed="true"]{background:var(--mint);border-style:solid;color:#22332b}
+.chip.toggle[aria-pressed="false"]{opacity:.55;text-decoration:line-through}
+.prov-note{font-size:.78rem;font-style:italic;color:var(--ink-soft);margin-top:8px}
+
+/* Klingel */
+.bell-wrap{display:flex;flex-direction:column;align-items:center;gap:10px}
+.bell{width:168px;height:168px;border-radius:50%;background:var(--paper);border:3px solid var(--ink);box-shadow:0 0 0 8px var(--facade),0 0 0 10px var(--ink),0 14px 24px var(--shadow);display:grid;place-items:center;transition:transform .15s}
+.bell:hover{transform:translateY(-2px)}
+.bell:active{transform:translateY(2px) scale(.98)}
+.bell svg{width:104px;height:104px}
+.bell.ringing svg{animation:ring .5s ease-in-out 3}
+@keyframes ring{0%,100%{transform:rotate(0)}25%{transform:rotate(-9deg)}75%{transform:rotate(9deg)}}
+.bell-cap{font-size:.66rem;color:var(--ink-soft)}
+@media (prefers-reduced-motion: reduce){.bell.ringing svg{animation:none}.card{transition:none!important}}
+
+/* Karte */
+.stage{width:100%;min-height:150px}
+.card{width:100%;background:var(--paper);border:2px solid var(--ink);padding:8px;text-align:center;cursor:pointer;display:block;position:relative}
+.card-inner{min-width:0;border:1px solid var(--line);padding:22px 18px 20px;display:flex;flex-direction:column;gap:10px;align-items:center}
+.card .chapter{font-size:.64rem;color:var(--ink-soft)}
+.card h2{margin:0;max-width:100%;overflow-wrap:break-word;hyphens:auto;-webkit-hyphens:auto;font-family:var(--font-sign);font-weight:700;text-transform:uppercase;letter-spacing:.14em;font-size:clamp(1.35rem,6vw,1.8rem);line-height:1.15;text-wrap:balance}
+.meta{font-family:var(--font-sign);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+.blurb{margin:0;font-style:italic;max-width:38ch}
+.why{margin:0;font-size:.88rem;color:var(--ink-soft);max-width:40ch}
+.badge-row{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.badge{font-family:var(--font-sign);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;padding:4px 9px;border:1.5px solid var(--ink)}
+.badge.duester{background:var(--plum);color:var(--paper);border-color:var(--plum)}
+.badge.heiter{background:var(--mustard);color:#3a1a12;border-color:var(--mustard)}
+.hint{font-size:.72rem;color:var(--ink-soft)}
+.actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:4px}
+.btn{font-family:var(--font-sign);text-transform:uppercase;letter-spacing:.16em;font-size:.74rem;font-weight:600;padding:10px 14px;border:2px solid var(--ink);background:var(--bg);color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+.btn.primary{background:var(--ink);color:var(--paper)}
+.btn.saved{background:var(--mustard);color:#3a1a12;border-color:var(--mustard)}
+.researching .card-inner{min-height:180px;justify-content:center}
+.ticker{font-family:var(--font-sign);letter-spacing:.18em;text-transform:uppercase;font-size:.8rem}
+.dots::after{content:"";animation:dots 1.2s steps(4) infinite}
+@keyframes dots{0%{content:""}25%{content:"."}50%{content:".."}75%{content:"..."}}
+.empty{border:2px dashed var(--line);padding:22px 18px;font-style:italic;color:var(--ink-soft)}
+
+/* Merkliste */
+.book{width:100%;text-align:left}
+.book-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;border-bottom:3px double var(--ink);padding-bottom:6px;margin-bottom:6px}
+.book-head h3{margin:0;font-family:var(--font-sign);text-transform:uppercase;letter-spacing:.2em;font-size:.95rem}
+.book-head span{font-size:.75rem;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+.rule{font-size:.78rem;font-style:italic;color:var(--ink-soft);margin:6px 0 10px}
+.favs{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.fav{display:grid;grid-template-columns:auto 1fr auto auto;gap:10px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+.fav .no{font-family:var(--font-sign);font-size:.7rem;color:var(--ink-soft);font-variant-numeric:tabular-nums;width:2ch}
+.fav .info{min-width:0}
+.fav a.t{font-family:var(--font-sign);text-transform:uppercase;letter-spacing:.12em;font-weight:600;font-size:.86rem;color:var(--ink);text-decoration:none;overflow-wrap:anywhere}
+.fav a.t:hover{text-decoration:underline}
+.fav .sub{font-size:.76rem;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+.icon-btn{width:40px;height:40px;display:grid;place-items:center;border:1.5px solid var(--ink);background:var(--paper)}
+.icon-btn svg{width:18px;height:18px}
+.icon-btn[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.book-empty{font-style:italic;color:var(--ink-soft);font-size:.9rem;padding:14px 0}
+.foot{font-size:.72rem;color:var(--ink-soft);max-width:44ch}
+.tip{width:100%;border:2px solid var(--ink);background:var(--facade);padding:6px}
+.tip-inner{border:1px dashed var(--ink);padding:18px 14px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.tip h3{margin:0;text-wrap:balance;max-width:100%;font-family:var(--font-sign);text-transform:uppercase;letter-spacing:.2em;font-size:.9rem}
+.tip p{margin:0;font-size:.86rem;font-style:italic;color:var(--ink-soft);max-width:36ch}
+.tip .btn{background:var(--mustard);color:#3a1a12;border-color:var(--ink)}
+.tip .addr{font-family:var(--font-sign);font-size:.7rem;letter-spacing:.08em;color:var(--ink-soft);user-select:all;overflow-wrap:anywhere}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--paper);font-family:var(--font-sign);letter-spacing:.14em;text-transform:uppercase;font-size:.72rem;padding:10px 16px}
+@media (max-width:420px){.mood{letter-spacing:.16em;font-size:.82rem}.card h2{letter-spacing:.08em}.chip{letter-spacing:.1em}.kind-switch button{padding:9px 18px 9px 20px}.btn{letter-spacing:.1em}.fav a.t{letter-spacing:.06em}.tip h3{letter-spacing:.14em}}
+@media (max-width:400px){.bell{width:148px;height:148px}.bell svg{width:92px;height:92px}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="sign">
+    <div class="sign-inner">
+      <div class="stars">★★★★★</div>
+      <h1 id="sign-title">FILMTIPP</h1>
+      <div class="sub caps">Weniger scrollen, mehr gucken</div>
+    </div>
+  </header>
+
+  <div class="kind-switch" role="group" aria-label="Film oder Serie">
+    <button id="kind-film" data-kind="film" aria-pressed="true">Film</button>
+    <button id="kind-serie" data-kind="serie" aria-pressed="false">Serie</button>
+  </div>
+
+  <section style="width:100%">
+    <div class="section-label caps">Stimmung des Abends</div>
+    <div class="moods" role="group" aria-label="Stimmung">
+      <button class="mood" id="mood-duester" data-mood="duester" aria-pressed="false">Düster<small>Schatten &amp; Spannung</small></button>
+      <button class="mood" id="mood-heiter" data-mood="heiter" aria-pressed="true">Heiter<small>Licht &amp; Leichtigkeit</small></button>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label caps">Häuser im Programm</div>
+    <div class="providers">
+      <span class="chip fixed">ARD</span>
+      <span class="chip fixed">ZDF</span>
+      <span class="chip fixed">arte</span>
+      <button class="chip toggle" id="tog-netflix" data-prov="netflix" aria-pressed="true">Netflix</button>
+      <button class="chip toggle" id="tog-prime" data-prov="prime" aria-pressed="true">Prime</button>
+    </div>
+    <div class="prov-note">Netflix und Prime lassen sich mit einem Tipp aus- und einschalten.</div>
+  </section>
+
+  <div class="bell-wrap">
+    <button class="bell" id="bell" aria-label="Neuen Tipp holen">
+      <svg viewBox="0 0 100 100" aria-hidden="true">
+        <rect x="46" y="14" width="8" height="9" rx="2" fill="var(--ink)"/>
+        <path d="M18 70 C18 44 32 28 50 28 C68 28 82 44 82 70 Z" fill="var(--mustard)" stroke="var(--ink)" stroke-width="3"/>
+        <path d="M30 52 C33 42 40 36 48 34" fill="none" stroke="var(--paper)" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+        <rect x="10" y="70" width="80" height="9" fill="var(--ink)"/>
+        <rect x="16" y="79" width="68" height="5" fill="var(--ink-soft)"/>
+      </svg>
+    </button>
+    <div class="bell-cap caps">Bitte klingeln</div>
+  </div>
+
+  <section class="stage" id="stage" aria-live="polite">
+    <div class="empty" id="empty">Klingeln Sie, und der Concierge sucht Ihnen einen guten Film, der gerade läuft.</div>
+  </section>
+
+  <section class="book" aria-labelledby="book-title">
+    <div class="book-head">
+      <h3 id="book-title">Film-Merkliste</h3>
+      <span id="fav-count">0 Einträge</span>
+    </div>
+    <div class="rule">Einträge verschwinden, wenn der Titel aus dem Programm fällt, spätestens aber nach 24 Stunden. Das Schloss hebt die 24-Stunden-Frist auf.</div>
+    <ul class="favs" id="favs"></ul>
+    <div class="book-empty" id="book-empty">Hier ist noch nichts gemerkt. Tippen Sie auf einen Vorschlag und dann auf „Merken“.</div>
+  </section>
+
+  <section class="tip" aria-labelledby="tip-title">
+    <div class="tip-inner">
+      <h3 id="tip-title">Trinkgeld für den Concierge</h3>
+      <p>Hat der Concierge Ihren Abend gerettet? Er freut sich über ein kleines Trinkgeld.</p>
+      <a class="btn" href="https://www.paypal.com/donate/?business=c.m.engelaender%40gmail.com&currency_code=EUR&item_name=Trinkgeld%20f%C3%BCr%20Filmtipp&no_recurring=1" target="_blank" rel="noopener">Mit PayPal spenden ↗</a>
+      <div class="addr">PayPal: c.m.engelaender@gmail.com</div>
+    </div>
+  </section>
+
+  <p class="foot" id="foot">Filmliste wird geladen …</p>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(function(){
+  const PROV = {
+    ard:{name:"ARD Mediathek", url:t=>"https://www.ardmediathek.de/suche/"+encodeURIComponent(t)},
+    zdf:{name:"ZDF Mediathek", url:t=>"https://www.zdf.de/suche?q="+encodeURIComponent(t)},
+    arte:{name:"arte", url:t=>"https://www.arte.tv/de/search/?q="+encodeURIComponent(t)},
+    netflix:{name:"Netflix", url:t=>"https://www.netflix.com/search?q="+encodeURIComponent(t)},
+    prime:{name:"Prime Video", url:t=>"https://www.amazon.de/s?k="+encodeURIComponent(t)+"&i=instant-video"}
+  };
+  const DAY = 864e5;
+  const $ = id => document.getElementById(id);
+  const store = {
+    get(k,d){try{const v=localStorage.getItem("filmtipp:"+k);return v==null?d:JSON.parse(v)}catch(e){return d}},
+    set(k,v){try{localStorage.setItem("filmtipp:"+k,JSON.stringify(v))}catch(e){}}
+  };
+
+  const state = {
+    kind: store.get("kind","film"),
+    mood: store.get("mood","heiter"),
+    netflix: store.get("netflix",true),
+    prime: store.get("prime",true),
+    films: [], filmsLoaded:false, series: [], seriesLoaded:false, current:null, open:false, seen:new Set(),
+    favs: [], favRef:null, localFavs:false
+  };
+
+  /* ---------- Hilfen ---------- */
+  function endOfDay(iso){ return iso ? new Date(iso+"T23:59:00").getTime() : Infinity; }
+  function fmtDate(iso){ return new Date(iso+"T12:00:00").toLocaleDateString("de-DE",{day:"numeric",month:"short"}); }
+  function expiresAt(f){
+    const prog = endOfDay(f.until);
+    return f.locked ? prog : Math.min(prog, f.savedAt + DAY);
+  }
+  function leftText(ms){
+    if(!isFinite(ms)) return "bleibt, solange das Schloss zu ist";
+    const h = Math.floor(ms/36e5), m = Math.floor((ms%36e5)/6e4);
+    if(h>=48) return "noch "+Math.floor(h/24)+" Tage";
+    if(h>=1) return "noch "+h+" Std. "+m+" Min.";
+    return "noch "+Math.max(m,1)+" Min.";
+  }
+  function el(tag, attrs, kids){
+    const n=document.createElement(tag);
+    for(const k in (attrs||{})){ if(k==="text") n.textContent=attrs[k]; else if(k==="class") n.className=attrs[k]; else n.setAttribute(k,attrs[k]); }
+    (kids||[]).forEach(c=>c&&n.appendChild(c)); return n;
+  }
+  function toast(msg){ const t=$("toast"); t.textContent=msg; t.hidden=false; clearTimeout(toast._t); toast._t=setTimeout(()=>t.hidden=true,2200); }
+
+  /* ---------- Einstellungen ---------- */
+  function renderSettings(){
+    document.querySelectorAll(".mood").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.mood===state.mood)));
+    $("tog-netflix").setAttribute("aria-pressed", String(state.netflix));
+    $("tog-prime").setAttribute("aria-pressed", String(state.prime));
+    const serie=state.kind==="serie";
+    document.documentElement.setAttribute("data-kind", state.kind);
+    document.querySelectorAll(".kind-switch button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.kind===state.kind)));
+    $("sign-title").textContent = serie ? "SERIENTIPP" : "FILMTIPP";
+    document.title = serie ? "Serientipp" : "Filmtipp";
+    const em=$("empty"); if(em) em.textContent = serie ? "Klingeln Sie, und der Concierge sucht Ihnen eine gute Serie, die gerade läuft." : "Klingeln Sie, und der Concierge sucht Ihnen einen guten Film, der gerade läuft.";
+    const tc=document.querySelector('meta[name="theme-color"]'); if(tc) tc.setAttribute("content", serie ? "#CFE3DA" : "#F3CFCB");
+  }
+  document.querySelectorAll(".kind-switch button").forEach(b=>b.addEventListener("click",()=>{
+    if(state.kind===b.dataset.kind) return;
+    state.kind=b.dataset.kind; store.set("kind",state.kind); state.seen.clear(); state.current=null; state.open=false;
+    $("stage").replaceChildren(el("div",{class:"empty",id:"empty"}));
+    renderSettings(); renderFavs();
+  }));
+  document.querySelectorAll(".mood").forEach(b=>b.addEventListener("click",()=>{
+    state.mood=b.dataset.mood; store.set("mood",state.mood); state.seen.clear(); renderSettings();
+  }));
+  document.querySelectorAll(".chip.toggle").forEach(b=>b.addEventListener("click",()=>{
+    const p=b.dataset.prov; state[p]=!state[p]; store.set(p,state[p]); renderSettings();
+  }));
+
+  /* ---------- Vorschlag ---------- */
+  function pool(){
+    const now=Date.now();
+    const src = state.kind==="serie" ? state.series : state.films;
+    return src.filter(f=>f.mood===state.mood
+      && (["ard","zdf","arte"].includes(f.provider) || (f.provider==="netflix"&&state.netflix) || (f.provider==="prime"&&state.prime))
+      && endOfDay(f.until) > now);
+  }
+  function pick(){
+    const p=pool(); if(!p.length) return null;
+    let fresh=p.filter(f=>!state.seen.has(f.id) && (!state.current || f.id!==state.current.id));
+    if(!fresh.length){ state.seen.clear(); fresh=p.filter(f=>!state.current||f.id!==state.current.id); if(!fresh.length) fresh=p; }
+    // gut bewertete leicht bevorzugen
+    const w=fresh.map(f=>Math.max(0.5,(f.imdb||6.5)-6)); const sum=w.reduce((a,b)=>a+b,0);
+    let r=Math.random()*sum; for(let i=0;i<fresh.length;i++){ r-=w[i]; if(r<=0) return fresh[i]; } return fresh[fresh.length-1];
+  }
+
+  let busy=false;
+  $("bell").addEventListener("click",()=>{
+    if(busy) return;
+    const bell=$("bell"); bell.classList.remove("ringing"); void bell.offsetWidth; bell.classList.add("ringing");
+    if(!(state.kind==="serie" ? state.seriesLoaded : state.filmsLoaded)){ renderMessage("Das Programm ist noch nicht geladen. Einen Moment, dann bitte erneut klingeln."); return; }
+    busy=true;
+    const houses=["ARD Mediathek","ZDF Mediathek","arte"].concat(state.netflix?["Netflix"]:[]).concat(state.prime?["Prime Video"]:[]);
+    renderResearch(houses[0]);
+    let i=0; const iv=setInterval(()=>{ i++; if(i<houses.length) renderResearch(houses[i]); },320);
+    setTimeout(()=>{
+      clearInterval(iv); busy=false;
+      const f=pick();
+      if(!f){ renderMessage("Für diese Stimmung und diese Häuser ist gerade nichts im Programm. Schalten Sie Netflix oder Prime dazu oder wechseln Sie die Stimmung."); return; }
+      state.current=f; state.open=false; state.seen.add(f.id); renderCard();
+    }, Math.max(1100, houses.length*320+200));
+  });
+
+  function renderMessage(msg){ const s=$("stage"); s.replaceChildren(el("div",{class:"empty",text:msg})); }
+  function renderResearch(house){
+    const s=$("stage");
+    s.replaceChildren(el("div",{class:"card researching"},[el("div",{class:"card-inner"},[
+      el("div",{class:"chapter caps",text:"Der Concierge recherchiert"}),
+      el("div",{class:"ticker"},[el("span",{class:"dots",text:house})])
+    ])]));
+  }
+
+  function isSaved(id){ return state.favs.some(f=>f.filmId===id); }
+
+  function renderCard(){
+    const f=state.current; if(!f) return;
+    const s=$("stage");
+    const prov=PROV[f.provider];
+    const until = f.until ? (f.untilApprox?"etwa bis ":"bis ")+fmtDate(f.until) : "ohne Ablaufdatum";
+    const inner=el("div",{class:"card-inner"},[
+      el("div",{class:"chapter caps",text:f.seasons?"Ihre Serie für heute":"Ihr Film für heute"}),
+      el("h2",{text:f.title}),
+      el("div",{class:"meta",text:[f.year,f.country,f.seasons?f.seasons+(f.seasons===1?" Staffel":" Staffeln"):(f.minutes?f.minutes+" Min.":null),f.director?"Regie "+f.director:(f.creator?"Von "+f.creator:null)].filter(Boolean).join(" · ")}),
+      el("p",{class:"blurb",text:f.blurb}),
+      el("div",{class:"badge-row"},[
+        el("span",{class:"badge "+f.mood,text:f.mood==="duester"?"Düster":"Heiter"}),
+        el("span",{class:"badge",text:prov.name}),
+        f.imdb?el("span",{class:"badge",text:"IMDb "+f.imdb.toFixed(1).replace(".",",")}):null
+      ]),
+      el("div",{class:"hint",text:until})
+    ]);
+    if(state.open){
+      if(f.why) inner.appendChild(el("p",{class:"why",text:f.why}));
+      const saved=isSaved(f.id);
+      const favBtn=el("button",{class:"btn"+(saved?" saved":""),id:"fav-btn","aria-pressed":String(saved)},[document.createTextNode(saved?"★ Gemerkt":"☆ Merken")]);
+      favBtn.addEventListener("click",e=>{e.stopPropagation(); toggleFav(f);});
+      const go=el("a",{class:"btn primary",href:prov.url(f.title),target:"_blank",rel:"noopener",text:"Ansehen bei "+prov.name+" ↗"});
+      go.addEventListener("click",e=>e.stopPropagation());
+      inner.appendChild(el("div",{class:"actions"},[favBtn,go]));
+    } else {
+      inner.appendChild(el("div",{class:"hint caps",text:"Antippen zum Merken"}));
+    }
+    const card=el("div",{class:"card",role:"button",tabindex:"0","aria-expanded":String(state.open)},[inner]);
+    const toggle=()=>{state.open=!state.open; renderCard();};
+    card.addEventListener("click",toggle);
+    card.addEventListener("keydown",e=>{ if(e.target===card&&(e.key==="Enter"||e.key===" ")){e.preventDefault();toggle();} });
+    s.replaceChildren(card);
+  }
+
+  /* ---------- Merkliste ---------- */
+  async function toggleFav(f){
+    const existing=state.favs.find(x=>x.filmId===f.id);
+    try{
+      if(existing){ await removeFav(existing); toast("Aus der Merkliste entfernt"); }
+      else{
+        const entry={filmId:f.id,title:f.title,year:f.year||null,provider:f.provider,until:f.until||null,untilApprox:!!f.untilApprox,mood:f.mood,kind:f.seasons?"serie":"film",savedAt:Date.now(),locked:false};
+        await addFav(entry); toast("Gemerkt");
+      }
+    }catch(e){ toast("Speichern ging nicht. Bitte noch einmal versuchen."); }
+  }
+  async function addFav(entry){
+    if(state.favRef){ await state.favRef.doc("fav-"+entry.filmId).set(entry); }
+    else { state.favs=state.favs.concat([{...entry,_id:"fav-"+entry.filmId}]); saveLocal(); renderFavs(); if(state.current) renderCard(); }
+  }
+  async function removeFav(f){
+    if(state.favRef){ await state.favRef.doc(f._id).delete(); }
+    else { state.favs=state.favs.filter(x=>x._id!==f._id); saveLocal(); renderFavs(); if(state.current) renderCard(); }
+  }
+  async function toggleLock(f){
+    const msg=f.locked?"Schloss geöffnet":"Abgeschlossen";
+    try{
+      if(state.favRef){ await state.favRef.doc(f._id).update({locked:!f.locked}); }
+      else { f.locked=!f.locked; saveLocal(); renderFavs(); }
+      toast(msg);
+    }catch(e){ toast("Das Schloss klemmt. Bitte noch einmal versuchen."); }
+  }
+  function saveLocal(){ store.set("favs",state.favs); }
+
+  const LOCK_CLOSED='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="10" rx="1"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
+  const LOCK_OPEN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="10" rx="1"/><path d="M8 11V7a4 4 0 0 1 7.5-2"/></svg>';
+  const TRASH='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 7h14M10 7V4h4v3M7 7l1 13h8l1-13"/></svg>';
+
+  const deleting=new Set();
+  function sweep(){
+    const now=Date.now();
+    state.favs.forEach(f=>{ if(expiresAt(f)<=now && !deleting.has(f._id)){ deleting.add(f._id); removeFav(f).catch(()=>{}).finally(()=>deleting.delete(f._id)); } });
+  }
+
+  function renderFavs(){
+    const now=Date.now();
+    const list=state.favs.filter(f=>expiresAt(f)>now && (f.kind||"film")===state.kind).sort((a,b)=>b.savedAt-a.savedAt);
+    $("book-title").textContent = state.kind==="serie" ? "Serien-Merkliste" : "Film-Merkliste";
+    $("fav-count").textContent=list.length+(list.length===1?" Eintrag":" Einträge");
+    $("book-empty").hidden=list.length>0;
+    const ul=$("favs");
+    ul.replaceChildren(...list.map((f,i)=>{
+      const prov=PROV[f.provider]||PROV.ard;
+      const exp=expiresAt(f);
+      const kl="";
+      let sub=kl+prov.name+" · "+leftText(exp-now);
+      if(f.locked && f.until) sub=kl+prov.name+" · bleibt "+(f.untilApprox?"etwa ":"")+"bis "+fmtDate(f.until);
+      const lock=el("button",{class:"icon-btn","aria-pressed":String(!!f.locked),"aria-label":f.locked?"Schloss öffnen":"Abschließen, damit der Eintrag die 24 Stunden überdauert",title:f.locked?"Abgeschlossen":"Abschließen"});
+      lock.innerHTML=f.locked?LOCK_CLOSED:LOCK_OPEN;
+      lock.addEventListener("click",()=>toggleLock(f));
+      const del=el("button",{class:"icon-btn","aria-label":"Aus der Merkliste entfernen",title:"Entfernen"}); del.innerHTML=TRASH;
+      del.addEventListener("click",()=>removeFav(f).then(()=>toast("Entfernt")).catch(()=>toast("Entfernen ging nicht.")));
+      return el("li",{class:"fav"},[
+        el("span",{class:"no",text:String(i+1).padStart(2,"0")}),
+        el("div",{class:"info"},[
+          el("a",{class:"t",href:prov.url(f.title),target:"_blank",rel:"noopener",text:f.title}),
+          el("div",{class:"sub",text:sub})
+        ]),
+        lock, del
+      ]);
+    }));
+  }
+
+  /* ---------- Start ---------- */
+  renderSettings();
+  state.favs=store.get("favs",[]); state.localFavs=true; renderFavs();
+  setInterval(()=>{ sweep(); renderFavs(); }, 30000);
+
+  fetch("series.json",{cache:"no-store"}).then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(data=>{ state.series=data.series||[]; state.seriesLoaded=true; }).catch(()=>{});
+  fetch("films.json",{cache:"no-store"}).then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(data=>{
+    state.films=data.films||[]; state.filmsLoaded=true;
+    $("foot").textContent="Programm recherchiert am "+new Date(data.researchedAt+"T12:00:00").toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"})+" in "+data.sources+". Ablaufdaten mit „etwa“ sind geschätzt.";
+    sweep(); renderFavs();
+  }).catch(()=>{ $("foot").textContent="Die Filmliste konnte nicht geladen werden. Bitte die Seite neu laden."; });
+})();
+</script>
+
+</body>
+</html>
