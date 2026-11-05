@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-10-16",
+  "researchedAt": "2026-11-05",
   "series": [
     {
       "blurb": "Ein 13-Jähriger wird wegen Mordes verhaftet. Jede Folge ist in einer einzigen Einstellung gedreht.",
@@ -62,6 +62,21 @@
       "id": "s-band-of-brothers"
     },
     {
+      "blurb": "Eine Londoner Ministergattin spioniert für eine Geheimorganisation, ein Killer soll sie schützen.",
+      "country": "GB",
+      "creator": "Joe Barton",
+      "imdb": 7.4,
+      "mood": "duester",
+      "provider": "netflix",
+      "seasons": 2,
+      "title": "Black Doves",
+      "until": null,
+      "untilApprox": false,
+      "why": "Elegantes Agentendrama mit Keira Knightley und Ben Whishaw.",
+      "year": 2024,
+      "id": "s-black-doves"
+    },
+    {
       "blurb": "Eine Affäre in London endet mit einer Schwangerschaft, und zwei Fremde versuchen es miteinander.",
       "country": "GB",
       "creator": "Sharon Horgan, Rob Delaney",
@@ -90,36 +105,6 @@
       "why": "Lustiger als jede Sitcom und nebenbei ein ehrlicher Blick auf die Landwirtschaft.",
       "year": 2021,
       "id": "s-clarksons-farm"
-    },
-    {
-      "blurb": "Ein Genetiker und ein Polizist überführen 1986 erstmals einen Mörder per DNA-Analyse.",
-      "country": "GB",
-      "creator": "Michael Crompton",
-      "imdb": 7.6,
-      "mood": "duester",
-      "provider": "arte",
-      "seasons": 1,
-      "title": "Der Code des Killers",
-      "until": "2026-11-04",
-      "untilApprox": true,
-      "why": "Wahre Geschichte, packend als Zweiteiler erzählt.",
-      "year": 2015,
-      "id": "s-code-of-a-killer"
-    },
-    {
-      "blurb": "Ein verschlossener Inspector, der Gedichte schreibt, ermittelt im England der 1970er in Mordfällen.",
-      "country": "GB",
-      "creator": "nach P. D. James",
-      "imdb": 7.6,
-      "mood": "duester",
-      "provider": "ard",
-      "seasons": 1,
-      "title": "Adam Dalgliesh, Scotland Yard",
-      "until": "2026-10-19",
-      "untilApprox": false,
-      "why": "Elegant inszenierter Klassiker-Krimi mit einem stillen, faszinierenden Ermittler.",
-      "year": 2021,
-      "id": "s-dalgliesh"
     },
     {
       "blurb": "Ein Waisenmädchen entdeckt in den Fünfzigern ihr Talent für Schach und kämpft mit ihren Dämonen.",
@@ -165,6 +150,21 @@
       "why": "Sonne, Rätsel und ein Inspektor, der nie in die Hitze passt. Krimi zum Entspannen.",
       "year": 2011,
       "id": "s-death-in-paradise"
+    },
+    {
+      "blurb": "Elisabeth heiratet Kaiser Franz Joseph und gerät am Wiener Hof in eine Welt voller Intrigen.",
+      "country": "Deutschland",
+      "creator": "Katharina Eyssen",
+      "imdb": 7.3,
+      "mood": "duester",
+      "provider": "netflix",
+      "seasons": 2,
+      "title": "Die Kaiserin",
+      "until": null,
+      "untilApprox": false,
+      "why": "Opulente, moderne Sisi-Erzählung mit Devrim Lingnau.",
+      "year": 2022,
+      "id": "s-die-kaiserin"
     },
     {
       "blurb": "Ein brillanter, aber unhöflicher Chirurg wird Landarzt in einem kornischen Fischerdorf voller Exzentriker.",
@@ -242,21 +242,6 @@
       "id": "s-good-omens"
     },
     {
-      "blurb": "Ein jazzliebender Vikar löst in den 1950ern mit einem bodenständigen Polizisten Kriminalfälle bei Cambridge.",
-      "country": "GB",
-      "creator": "Daisy Coulam",
-      "imdb": 7.9,
-      "mood": "heiter",
-      "provider": "ard",
-      "seasons": 11,
-      "title": "Grantchester",
-      "until": "2026-11-03",
-      "untilApprox": true,
-      "why": "Gemütlicher britischer Krimi mit viel Herz, Witz und schöner Landschaft.",
-      "year": 2014,
-      "id": "s-grantchester"
-    },
-    {
       "blurb": "Polizistin Catherine Cawood trifft in Yorkshire wieder auf den Mann, der ihre Familie zerstört hat.",
       "country": "GB",
       "creator": "Sally Wainwright",
@@ -270,21 +255,6 @@
       "why": "Eine der besten Krimiserien überhaupt. Hart, menschlich und unglaublich gut gespielt.",
       "year": 2014,
       "id": "s-happy-valley"
-    },
-    {
-      "blurb": "Drei Familien verschiedener Schichten verstricken sich im edwardianischen England.",
-      "country": "GB",
-      "creator": "Kenneth Lonergan",
-      "imdb": 7.2,
-      "mood": "heiter",
-      "provider": "ard",
-      "seasons": 1,
-      "title": "Howards End",
-      "until": "2026-11-04",
-      "untilApprox": true,
-      "why": "Elegante Forster-Adaption mit Hayley Atwell und Matthew Macfadyen.",
-      "year": 2017,
-      "id": "s-howards-end"
     },
     {
       "blurb": "Eine junge Ermittlerin rollt in Schottland einen 25 Jahre alten Mord neu auf.",
@@ -362,19 +332,19 @@
       "id": "s-mrs-maisel"
     },
     {
-      "blurb": "Detective Murdoch löst im Toronto um 1900 Morde mit damals brandneuen Methoden wie Fingerabdrücken.",
-      "country": "CA/GB",
-      "creator": "Maureen Jennings",
-      "imdb": 8.2,
+      "blurb": "Eine junge Inuk-Mutter beginnt in ihrem arktischen Dorf ein neues Leben.",
+      "country": "Kanada",
+      "creator": "Stacey Aglok MacDonald, Anna Lambe",
+      "imdb": 7.6,
       "mood": "heiter",
-      "provider": "ard",
-      "seasons": 1,
-      "title": "Murdoch Mysteries",
-      "until": "2026-10-22",
+      "provider": "netflix",
+      "seasons": 2,
+      "title": "North of North",
+      "until": null,
       "untilApprox": false,
-      "why": "Gemütlicher, kluger Krimi mit trockenem Humor und viel Zeitkolorit.",
-      "year": 2008,
-      "id": "s-murdoch-mysteries"
+      "why": "Warmherzige Sitcom mit viel Witz aus einer selten gezeigten Welt.",
+      "year": 2025,
+      "id": "s-north-of-north"
     },
     {
       "blurb": "Ein Aristokrat kämpft sich durch Sucht und die Erinnerung an seinen grausamen Vater.",
@@ -405,21 +375,6 @@
       "why": "Startet als Krimi der Woche und wird zum klugen, packenden Thriller über Überwachung.",
       "year": 2011,
       "id": "s-person-of-interest"
-    },
-    {
-      "blurb": "Der belgische Meisterdetektiv löst mit seinen grauen Zellen Mordfälle im England der 1930er.",
-      "country": "GB",
-      "creator": "Clive Exton",
-      "imdb": 8.6,
-      "mood": "heiter",
-      "provider": "ard",
-      "seasons": 13,
-      "title": "Agatha Christie's Poirot",
-      "until": "2026-10-23",
-      "untilApprox": true,
-      "why": "David Suchet ist der definitive Poirot – stilvoller Krimi-Komfort.",
-      "year": 1989,
-      "id": "s-poirot"
     },
     {
       "blurb": "Der Sohn einer Sextherapeutin eröffnet an seiner Schule eine heimliche Beratungsstelle.",
@@ -497,21 +452,6 @@
       "id": "s-the-night-of"
     },
     {
-      "blurb": "Ein Mann erwacht nach einem Unfall im Outback ohne Gedächtnis – und ein Killer ist hinter ihm her.",
-      "country": "GB",
-      "creator": "Harry und Jack Williams",
-      "imdb": 7.1,
-      "mood": "duester",
-      "provider": "zdf",
-      "seasons": 2,
-      "title": "The Tourist – Duell im Outback",
-      "until": "2026-10-30",
-      "untilApprox": false,
-      "why": "Wendungsreicher Thriller mit schwarzem Humor und Jamie Dornan in Bestform.",
-      "year": 2022,
-      "id": "s-the-tourist"
-    },
-    {
       "blurb": "Eine indigene Frau wird in den Senat geholt, um der Premierministerin zu nützen – und schlägt zurück.",
       "country": "Australien",
       "creator": "Darren Dale, Miranda Dear, Rachel Perkins",
@@ -527,21 +467,6 @@
       "id": "s-total-control"
     },
     {
-      "blurb": "Ein Londoner Paar nimmt eine Untermieterin auf – und verliebt sich zu dritt.",
-      "country": "GB",
-      "creator": "Duncan Macmillan, Effie Woods",
-      "imdb": 7.2,
-      "mood": "heiter",
-      "provider": "arte",
-      "seasons": 1,
-      "title": "Trigonometry",
-      "until": "2026-11-04",
-      "untilApprox": true,
-      "why": "Feinfühlige, moderne Liebesgeschichte jenseits gängiger Muster.",
-      "year": 2020,
-      "id": "s-trigonometry"
-    },
-    {
       "blurb": "Wer hat Laura Palmer getötet? FBI-Agent Cooper ermittelt in einer seltsamen Kleinstadt.",
       "country": "USA",
       "creator": "David Lynch, Mark Frost",
@@ -555,21 +480,6 @@
       "why": "Kirschkuchen, Kaffee und Albträume. Lynchs Kult hat das Serienfernsehen verändert.",
       "year": 1990,
       "id": "s-twin-peaks"
-    },
-    {
-      "blurb": "Ein vorlauter Kurier soll ein Paket quer durch ein postapokalyptisches Amerika voller Irrer bringen.",
-      "country": "USA",
-      "creator": "Michael Jonathan Smith",
-      "imdb": 7.3,
-      "mood": "duester",
-      "provider": "zdf",
-      "seasons": 2,
-      "title": "Twisted Metal",
-      "until": "2026-11-04",
-      "untilApprox": false,
-      "why": "Rasante Endzeit-Action mit tiefschwarzem Humor und Anthony Mackie in Bestform.",
-      "year": 2023,
-      "id": "s-twisted-metal"
     },
     {
       "blurb": "1936 zieht ein Diplomatenpaar in das Londoner Stadthaus und sucht neues Personal für den Haushalt.",
