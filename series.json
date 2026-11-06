@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-05",
+  "researchedAt": "2026-11-06",
   "series": [
     {
       "blurb": "Ein 13-Jähriger wird wegen Mordes verhaftet. Jede Folge ist in einer einzigen Einstellung gedreht.",
@@ -480,21 +480,6 @@
       "why": "Kirschkuchen, Kaffee und Albträume. Lynchs Kult hat das Serienfernsehen verändert.",
       "year": 1990,
       "id": "s-twin-peaks"
-    },
-    {
-      "blurb": "1936 zieht ein Diplomatenpaar in das Londoner Stadthaus und sucht neues Personal für den Haushalt.",
-      "country": "GB",
-      "creator": "Heidi Thomas",
-      "imdb": 7.4,
-      "mood": "heiter",
-      "provider": "arte",
-      "seasons": 2,
-      "title": "Rückkehr ins Haus am Eaton Place",
-      "until": "2026-11-05",
-      "untilApprox": true,
-      "why": "Liebevolles Kostümdrama über Herrschaft und Dienerschaft am Vorabend des Krieges.",
-      "year": 2010,
-      "id": "s-upstairs-downstairs"
     },
     {
       "blurb": "Wednesday Addams kommt auf ein Internat für Außenseiter und gerät in eine Mordserie.",

@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-05",
+  "researchedAt": "2026-11-06",
   "sources": "ARD Mediathek, ZDF Mediathek, arte, Netflix und Prime Video",
   "films": [
     {
@@ -406,21 +406,6 @@
       "why": "Folk-Horror bei strahlendem Tageslicht, verstörend und bildgewaltig.",
       "year": 2019,
       "id": "midsommar"
-    },
-    {
-      "blurb": "Ein störrischer alter Mann will in Nebraska einen Millionengewinn abholen, sein Sohn fährt ihn hin.",
-      "country": "USA",
-      "director": "Alexander Payne",
-      "imdb": 7.7,
-      "minutes": 115,
-      "mood": "heiter",
-      "provider": "arte",
-      "title": "Nebraska",
-      "until": "2026-11-05",
-      "untilApprox": false,
-      "why": "Schwarz-weißes Roadmovie, lakonisch komisch und voller leiser Zuneigung.",
-      "year": 2013,
-      "id": "nebraska"
     },
     {
       "blurb": "Eine Galeristin bekommt das Manuskript ihres Ex-Mannes, eine brutale Geschichte, die sie nicht loslässt.",
