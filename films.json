@@ -1,8 +1,9 @@
 {
-  "researchedAt": "2026-11-07",
+  "researchedAt": "2026-11-08",
   "sources": "ARD Mediathek, ZDF Mediathek, arte, Netflix und Prime Video",
   "films": [
     {
+      "id": "1917",
       "blurb": "Zwei Soldaten müssen eine Warnung durch feindliches Gebiet bringen, bevor 1.600 Männer in eine Falle laufen.",
       "country": "GB/USA",
       "director": "Sam Mendes",
@@ -14,10 +15,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Wie in einer einzigen Einstellung gedreht und von der ersten Minute an packend.",
-      "year": 2019,
-      "id": "1917"
+      "year": 2019
     },
     {
+      "id": "50-50",
       "blurb": "Ein 27-Jähriger erfährt von seiner Krebsdiagnose, sein bester Freund hilft mit derbem Humor.",
       "country": "USA",
       "director": "Jonathan Levine",
@@ -29,10 +30,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Warmherzig und witzig zugleich, ohne je kitschig zu werden.",
-      "year": 2011,
-      "id": "50-50"
+      "year": 2011
     },
     {
+      "id": "anatomie-eines-falls",
       "blurb": "Nach dem Sturz ihres Mannes steht eine Schriftstellerin unter Mordverdacht – vor Gericht zerfällt eine Ehe.",
       "country": "FR",
       "director": "Justine Triet",
@@ -44,10 +45,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Goldene Palme 2023: ein fesselndes Justizdrama, das bis zuletzt keine einfachen Antworten gibt.",
-      "year": 2023,
-      "id": "anatomie-eines-falls"
+      "year": 2023
     },
     {
+      "id": "bad-tales",
       "blurb": "Hinter den Fassaden einer Vorstadt bei Rom gärt die Wut, und die Kinder schmieden finstere Pläne.",
       "country": "Italien/Schweiz",
       "director": "Damiano und Fabio D'Innocenzo",
@@ -59,10 +60,10 @@
       "until": "2027-01-13",
       "untilApprox": false,
       "why": "Beklemmendes Märchen, auf der Berlinale mit dem Silbernen Bären fürs Drehbuch geehrt.",
-      "year": 2020,
-      "id": "bad-tales"
+      "year": 2020
     },
     {
+      "id": "blood-und-sinners",
       "blurb": "Zwillingsbrüder kehren in ihre Heimatstadt im Süden zurück und treffen auf ein größeres Übel.",
       "country": "USA",
       "director": "Ryan Coogler",
@@ -74,10 +75,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Wuchtiger Horrorfilm voller Blues, von der Kritik gefeiert.",
-      "year": 2025,
-      "id": "blood-und-sinners"
+      "year": 2025
     },
     {
+      "id": "casino-royale",
       "blurb": "Bei seinem ersten Einsatz als 007 soll Bond einen Terrorfinanzier am Pokertisch ruinieren.",
       "country": "GB/USA",
       "director": "Martin Campbell",
@@ -89,10 +90,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Daniel Craigs harter, emotionaler Neustart der Reihe – einer der besten Bond-Filme.",
-      "year": 2006,
-      "id": "casino-royale"
+      "year": 2006
     },
     {
+      "id": "das-piano",
       "blurb": "Eine stumme Schottin wird nach Neuseeland verheiratet, ihr Klavier bleibt zunächst am Strand zurück.",
       "country": "Neuseeland/Australien",
       "director": "Jane Campion",
@@ -104,10 +105,10 @@
       "until": "2026-12-01",
       "untilApprox": false,
       "why": "Goldene Palme und drei Oscars für ein wildes, sinnliches Drama.",
-      "year": 1993,
-      "id": "das-piano"
+      "year": 1993
     },
     {
+      "id": "das-wunder-in-zelle-7",
       "blurb": "Ein geistig beeinträchtigter Vater wird unschuldig zum Tode verurteilt, seine Tochter kämpft um ihn.",
       "country": "Türkei",
       "director": "Mehmet Ada Öztekin",
@@ -119,10 +120,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Hochemotionales Drama, das in der Türkei zum Kassenschlager wurde.",
-      "year": 2019,
-      "id": "das-wunder-in-zelle-7"
+      "year": 2019
     },
     {
+      "id": "dein-weg",
       "blurb": "Nach dem Tod seines Sohnes pilgert ein amerikanischer Arzt den Jakobsweg an dessen Stelle zu Ende.",
       "country": "USA/Spanien",
       "director": "Emilio Estevez",
@@ -134,10 +135,10 @@
       "until": "2026-11-24",
       "untilApprox": false,
       "why": "Warmherziger Roadmovie mit Martin Sheen und schönen Begegnungen unterwegs.",
-      "year": 2010,
-      "id": "dein-weg"
+      "year": 2010
     },
     {
+      "id": "der-gott-des-gemetzels",
       "blurb": "Zwei Elternpaare treffen sich nach einem Streit ihrer Söhne, und der Anstand löst sich rasch auf.",
       "country": "Frankreich/Deutschland",
       "director": "Roman Polanski",
@@ -149,10 +150,10 @@
       "until": "2026-11-26",
       "untilApprox": false,
       "why": "Bissiges Kammerspiel mit Foster, Winslet, Waltz und Reilly.",
-      "year": 2011,
-      "id": "der-gott-des-gemetzels"
+      "year": 2011
     },
     {
+      "id": "der-stadtneurotiker",
       "blurb": "Ein neurotischer New Yorker Komiker blickt auf seine Liebe zu Annie Hall zurück.",
       "country": "USA",
       "director": "Woody Allen",
@@ -164,10 +165,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Vierfacher Oscar-Gewinner und eine der einflussreichsten romantischen Komödien.",
-      "year": 1977,
-      "id": "der-stadtneurotiker"
+      "year": 1977
     },
     {
+      "id": "der-sternwanderer",
       "blurb": "Ein junger Mann sucht im Märchenland einen gefallenen Stern und findet eine Frau.",
       "country": "GB/USA",
       "director": "Matthew Vaughn",
@@ -179,10 +180,10 @@
       "until": "2026-11-09",
       "untilApprox": false,
       "why": "Charmantes Fantasy-Abenteuer mit viel Witz und Robert De Niro als Luftpirat.",
-      "year": 2007,
-      "id": "der-sternwanderer"
+      "year": 2007
     },
     {
+      "id": "die-bruecke-am-kwai",
       "blurb": "Britische Kriegsgefangene sollen für die Japaner in Burma eine Eisenbahnbrücke bauen.",
       "country": "GB/USA",
       "director": "David Lean",
@@ -194,10 +195,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Sieben Oscars und ein Klassiker über Stolz und Wahnsinn des Krieges.",
-      "year": 1957,
-      "id": "die-bruecke-am-kwai"
+      "year": 1957
     },
     {
+      "id": "die-kinder-der-anderen",
       "blurb": "Eine Lehrerin Mitte vierzig schließt die kleine Tochter ihres neuen Partners ins Herz.",
       "country": "Frankreich",
       "director": "Rebecca Zlotowski",
@@ -209,10 +210,10 @@
       "until": "2026-12-03",
       "untilApprox": false,
       "why": "Feinfühlig und warm, mit einer großartigen Virginie Efira.",
-      "year": 2022,
-      "id": "die-kinder-der-anderen"
+      "year": 2022
     },
     {
+      "id": "eismayer",
       "blurb": "Ein gefürchteter Ausbilder beim Bundesheer verbirgt seine Homosexualität, bis ein Rekrut kommt.",
       "country": "Österreich",
       "director": "David Wagner",
@@ -224,10 +225,10 @@
       "until": "2026-11-08",
       "untilApprox": false,
       "why": "Packende wahre Geschichte, in Venedig ausgezeichnet.",
-      "year": 2022,
-      "id": "eismayer"
+      "year": 2022
     },
     {
+      "id": "ernst-sein-ist-alles",
       "blurb": "Zwei Herren geben sich als Ernst aus und stiften in der britischen Oberschicht Verwirrung.",
       "country": "GB/USA",
       "director": "Oliver Parker",
@@ -239,10 +240,10 @@
       "until": "2026-12-31",
       "untilApprox": false,
       "why": "Oscar Wilde mit Colin Firth, Rupert Everett und Judi Dench: leicht und spritzig.",
-      "year": 2002,
-      "id": "ernst-sein-ist-alles"
+      "year": 2002
     },
     {
+      "id": "gangs-of-wasseypur",
       "blurb": "Eine Blutfehde zwischen Clans im Kohlerevier von Dhanbad zieht sich über Generationen.",
       "country": "Indien",
       "director": "Anurag Kashyap",
@@ -254,10 +255,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Indiens wildes Gangsterepos, oft mit Scorsese verglichen.",
-      "year": 2012,
-      "id": "gangs-of-wasseypur"
+      "year": 2012
     },
     {
+      "id": "gnade",
       "blurb": "In der Polarnacht Hammerfests verschweigt ein deutsches Paar einen tödlichen Unfall.",
       "country": "Deutschland/Norwegen",
       "director": "Matthias Glasner",
@@ -269,10 +270,10 @@
       "until": "2026-11-08",
       "untilApprox": true,
       "why": "Schuld und Vergebung unter einem Himmel, der nie hell wird. Mit Jürgen Vogel und Birgit Minichmayr.",
-      "year": 2012,
-      "id": "gnade"
+      "year": 2012
     },
     {
+      "id": "harry-und-sally",
       "blurb": "Können Männer und Frauen befreundet sein? Zwölf Jahre lang streiten Harry und Sally darüber.",
       "country": "USA",
       "director": "Rob Reiner",
@@ -284,10 +285,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Die romantische Komödie, an der sich alle anderen messen.",
-      "year": 1989,
-      "id": "harry-und-sally"
+      "year": 1989
     },
     {
+      "id": "hot-fuzz",
       "blurb": "Ein Londoner Musterpolizist wird in ein verdächtig friedliches Dorf versetzt.",
       "country": "GB",
       "director": "Edgar Wright",
@@ -299,10 +300,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Rasante Actionparodie mit perfektem Timing.",
-      "year": 2007,
-      "id": "hot-fuzz"
+      "year": 2007
     },
     {
+      "id": "in-der-hitze-der-nacht",
       "blurb": "Ein schwarzer Polizist aus Philadelphia muss in Mississippi einen Mordfall aufklären.",
       "country": "USA",
       "director": "Norman Jewison",
@@ -314,10 +315,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Oscar als bester Film, mit Sidney Poitier und Rod Steiger.",
-      "year": 1967,
-      "id": "in-der-hitze-der-nacht"
+      "year": 1967
     },
     {
+      "id": "knives-out",
       "blurb": "Ein Krimiautor stirbt an seinem Geburtstag, und jeder in der Familie hatte ein Motiv.",
       "country": "USA",
       "director": "Rian Johnson",
@@ -329,10 +330,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Verschachtelter Whodunit mit Daniel Craig als Südstaaten-Detektiv.",
-      "year": 2019,
-      "id": "knives-out"
+      "year": 2019
     },
     {
+      "id": "la-chimera",
       "blurb": "Ein britischer Archäologe zieht im Italien der 80er mit Grabräubern und Wünschelrute durchs Land.",
       "country": "Italien",
       "director": "Alice Rohrwacher",
@@ -344,10 +345,10 @@
       "until": "2026-12-03",
       "untilApprox": false,
       "why": "Verspieltes, poetisches Kritikerliebling-Märchen mit Josh O'Connor.",
-      "year": 2023,
-      "id": "la-chimera"
+      "year": 2023
     },
     {
+      "id": "lieber-thomas",
       "blurb": "Das Leben des DDR-Dichters und Filmemachers Thomas Brasch zwischen Rebellion, Liebe und Exil.",
       "country": "Deutschland",
       "director": "Andreas Kleinert",
@@ -359,10 +360,10 @@
       "until": "2026-12-02",
       "untilApprox": false,
       "why": "Schwarzweißes Porträt mit Albrecht Schuch, beim Deutschen Filmpreis vielfach ausgezeichnet.",
-      "year": 2021,
-      "id": "lieber-thomas"
+      "year": 2021
     },
     {
+      "id": "manche-moegens-heiss",
       "blurb": "Zwei Musiker fliehen vor Gangstern und tauchen als Frauen in einer Damenkapelle unter.",
       "country": "USA",
       "director": "Billy Wilder",
@@ -374,10 +375,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Marilyn Monroe, Billy Wilder und einer der besten Schlusssätze der Filmgeschichte.",
-      "year": 1959,
-      "id": "manche-moegens-heiss"
+      "year": 1959
     },
     {
+      "id": "match-point",
       "blurb": "Ein Tennislehrer heiratet in die Londoner Oberschicht ein und beginnt eine gefährliche Affäre.",
       "country": "GB",
       "director": "Woody Allen",
@@ -389,10 +390,10 @@
       "until": "2026-11-21",
       "untilApprox": false,
       "why": "Woody Allens kühlster Film: ein Moralthriller, in dem der Zufall entscheidet.",
-      "year": 2005,
-      "id": "match-point"
+      "year": 2005
     },
     {
+      "id": "midsommar",
       "blurb": "Dani reist mit Freunden zu einem schwedischen Mittsommerfest, das zum Albtraum wird.",
       "country": "USA/Schweden",
       "director": "Ari Aster",
@@ -404,10 +405,10 @@
       "until": "2026-11-29",
       "untilApprox": false,
       "why": "Folk-Horror bei strahlendem Tageslicht, verstörend und bildgewaltig.",
-      "year": 2019,
-      "id": "midsommar"
+      "year": 2019
     },
     {
+      "id": "nocturnal-animals",
       "blurb": "Eine Galeristin bekommt das Manuskript ihres Ex-Mannes, eine brutale Geschichte, die sie nicht loslässt.",
       "country": "USA",
       "director": "Tom Ford",
@@ -419,10 +420,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Stilvoller, beklemmender Thriller mit Amy Adams und Jake Gyllenhaal.",
-      "year": 2016,
-      "id": "nocturnal-animals"
+      "year": 2016
     },
     {
+      "id": "poor-things",
       "blurb": "Die wiederbelebte Bella Baxter entdeckt die Welt ohne jede Scheu.",
       "country": "GB/USA",
       "director": "Yorgos Lanthimos",
@@ -434,10 +435,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Bunt, wild und sehr komisch. Emma Stone bekam dafür den Oscar.",
-      "year": 2023,
-      "id": "poor-things"
+      "year": 2023
     },
     {
+      "id": "rachels-hochzeit",
       "blurb": "Kym kommt aus der Entzugsklinik zur Hochzeit ihrer Schwester, und alte Wunden brechen auf.",
       "country": "USA",
       "director": "Jonathan Demme",
@@ -449,10 +450,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Intensives Familiendrama mit Anne Hathaway, fast wie ein Dokumentarfilm.",
-      "year": 2008,
-      "id": "rachels-hochzeit"
+      "year": 2008
     },
     {
+      "id": "reservoir-dogs",
       "blurb": "Nach einem misslungenen Juwelenraub suchen Gangster in einer Lagerhalle den Verräter.",
       "country": "USA",
       "director": "Quentin Tarantino",
@@ -464,10 +465,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Tarantinos Debüt: messerscharfe Dialoge und purer Nervenkitzel.",
-      "year": 1992,
-      "id": "reservoir-dogs"
+      "year": 1992
     },
     {
+      "id": "shoplifters",
       "blurb": "Eine arme Familie in Tokio hält sich mit Ladendiebstählen über Wasser und nimmt ein Mädchen auf.",
       "country": "Japan",
       "director": "Hirokazu Kore-eda",
@@ -479,10 +480,10 @@
       "until": "2026-12-02",
       "untilApprox": false,
       "why": "Goldene Palme 2018: zart und erschütternd zugleich.",
-      "year": 2018,
-      "id": "shoplifters"
+      "year": 2018
     },
     {
+      "id": "skyfall",
       "blurb": "Ein Angriff auf den MI6 führt Bond in die Vergangenheit von M und zu einem rachsüchtigen Ex-Agenten.",
       "country": "GB/USA",
       "director": "Sam Mendes",
@@ -494,10 +495,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Der persönlichste Bond, grandios fotografiert von Roger Deakins.",
-      "year": 2012,
-      "id": "skyfall"
+      "year": 2012
     },
     {
+      "id": "spaceballs",
       "blurb": "Ein Weltraum-Söldner soll eine Prinzessin vor dem Planeten Spaceball und Lord Helmchen retten.",
       "country": "USA",
       "director": "Mel Brooks",
@@ -509,10 +510,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Mel Brooks' Star-Wars-Parodie: albern, zitierfähig, Kult.",
-      "year": 1987,
-      "id": "spaceballs"
+      "year": 1987
     },
     {
+      "id": "swiss-army-man",
       "blurb": "Ein Gestrandeter freundet sich mit einer angeschwemmten Leiche an, die erstaunlich nützlich ist.",
       "country": "USA",
       "director": "Daniel Kwan, Daniel Scheinert",
@@ -524,10 +525,10 @@
       "until": "2026-11-24",
       "untilApprox": false,
       "why": "Herrlich absurde Freundschaftskomödie mit Paul Dano und Daniel Radcliffe.",
-      "year": 2016,
-      "id": "swiss-army-man"
+      "year": 2016
     },
     {
+      "id": "the-game",
       "blurb": "Ein Investmentbanker erhält zum Geburtstag ein rätselhaftes Spiel, das sein Leben zerlegt.",
       "country": "USA",
       "director": "David Fincher",
@@ -539,10 +540,10 @@
       "until": "2026-11-26",
       "untilApprox": false,
       "why": "Fincher-Thriller mit Michael Douglas, der bis zuletzt falsche Fährten legt.",
-      "year": 1997,
-      "id": "the-game"
+      "year": 1997
     },
     {
+      "id": "the-whale",
       "blurb": "Ein zurückgezogen lebender Englischlehrer versucht, sich mit seiner entfremdeten Tochter zu versöhnen.",
       "country": "USA",
       "director": "Darren Aronofsky",
@@ -554,10 +555,10 @@
       "until": "2026-11-26",
       "untilApprox": true,
       "why": "Brendan Fraser bekam für diese Rolle den Oscar.",
-      "year": 2022,
-      "id": "the-whale"
+      "year": 2022
     },
     {
+      "id": "z-anatomie-eines-politischen-mordes",
       "blurb": "Ein Oppositionspolitiker wird ermordet, ein junger Untersuchungsrichter stößt auf eine Verschwörung.",
       "country": "Frankreich/Algerien",
       "director": "Costa-Gavras",
@@ -569,8 +570,7 @@
       "until": "2027-03-31",
       "untilApprox": false,
       "why": "Oscarprämierter Politthriller, der bis heute nichts von seiner Wucht verloren hat.",
-      "year": 1969,
-      "id": "z-anatomie-eines-politischen-mordes"
+      "year": 1969
     }
   ]
 }

@@ -1,7 +1,8 @@
 {
-  "researchedAt": "2026-11-07",
+  "researchedAt": "2026-11-08",
   "series": [
     {
+      "id": "s-adolescence",
       "blurb": "Ein 13-Jähriger wird wegen Mordes verhaftet. Jede Folge ist in einer einzigen Einstellung gedreht.",
       "country": "GB",
       "creator": "Jack Thorne, Stephen Graham",
@@ -13,10 +14,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Vier Folgen, die einen nicht loslassen. Erschütternd und meisterhaft gespielt.",
-      "year": 2025,
-      "id": "s-adolescence"
+      "year": 2025
     },
     {
+      "id": "s-babylon-berlin",
       "blurb": "Kommissar Rath ermittelt im Berlin der späten Zwanziger zwischen Nachtclubs, Kokain und Putschplänen.",
       "country": "Deutschland",
       "creator": "Tykwer, Handloegten, von Borries",
@@ -28,10 +29,10 @@
       "until": "2026-12-31",
       "untilApprox": true,
       "why": "Opulent, spannend und mit dem besten Tanzfilm-Moment des deutschen Fernsehens.",
-      "year": 2017,
-      "id": "s-babylon-berlin"
+      "year": 2017
     },
     {
+      "id": "s-badehotellet",
       "blurb": "Jeden Sommer treffen sich dieselben Gäste in einem Strandhotel an der dänischen Nordsee.",
       "country": "Dänemark",
       "creator": "Hanna Lundblad, Stig Thorsboe",
@@ -43,10 +44,10 @@
       "until": "2026-12-31",
       "untilApprox": true,
       "why": "Kostüme, Klatsch und Sommerfrische. Gemütlicher geht Fernsehen nicht.",
-      "year": 2013,
-      "id": "s-badehotellet"
+      "year": 2013
     },
     {
+      "id": "s-band-of-brothers",
       "blurb": "Die Easy Company von der Landung in der Normandie bis nach Berchtesgaden.",
       "country": "USA/GB",
       "creator": "Spielberg, Hanks",
@@ -58,10 +59,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Die vielleicht beste Kriegsserie, die je gedreht wurde.",
-      "year": 2001,
-      "id": "s-band-of-brothers"
+      "year": 2001
     },
     {
+      "id": "s-black-doves",
       "blurb": "Eine Londoner Ministergattin spioniert für eine Geheimorganisation, ein Killer soll sie schützen.",
       "country": "GB",
       "creator": "Joe Barton",
@@ -73,10 +74,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Elegantes Agentendrama mit Keira Knightley und Ben Whishaw.",
-      "year": 2024,
-      "id": "s-black-doves"
+      "year": 2024
     },
     {
+      "id": "s-catastrophe",
       "blurb": "Eine Affäre in London endet mit einer Schwangerschaft, und zwei Fremde versuchen es miteinander.",
       "country": "GB",
       "creator": "Sharon Horgan, Rob Delaney",
@@ -88,10 +89,10 @@
       "until": "2026-11-30",
       "untilApprox": true,
       "why": "Schnelle, freche Beziehungskomödie mit Folgen von nur 25 Minuten.",
-      "year": 2015,
-      "id": "s-catastrophe"
+      "year": 2015
     },
     {
+      "id": "s-clarksons-farm",
       "blurb": "Jeremy Clarkson versucht sich als Landwirt in den Cotswolds und scheitert grandios.",
       "country": "GB",
       "creator": "Jeremy Clarkson",
@@ -103,10 +104,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Lustiger als jede Sitcom und nebenbei ein ehrlicher Blick auf die Landwirtschaft.",
-      "year": 2021,
-      "id": "s-clarksons-farm"
+      "year": 2021
     },
     {
+      "id": "s-damengambit",
       "blurb": "Ein Waisenmädchen entdeckt in den Fünfzigern ihr Talent für Schach und kämpft mit ihren Dämonen.",
       "country": "USA",
       "creator": "Scott Frank, Allan Scott",
@@ -118,10 +119,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Elegant ausgestattete Miniserie, die selbst Schachmuffel mitreißt.",
-      "year": 2020,
-      "id": "s-damengambit"
+      "year": 2020
     },
     {
+      "id": "s-dark",
       "blurb": "In der Kleinstadt Winden verschwinden Kinder, und die Spur führt durch die Zeit.",
       "country": "Deutschland",
       "creator": "Baran bo Odar, Jantje Friese",
@@ -133,10 +134,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Das große deutsche Zeitreiserätsel. Weltweit gefeiert, mit einem Ende, das aufgeht.",
-      "year": 2017,
-      "id": "s-dark"
+      "year": 2017
     },
     {
+      "id": "s-death-in-paradise",
       "blurb": "Britische Ermittler lösen auf einer karibischen Insel einen Mordfall nach dem anderen.",
       "country": "GB/Frankreich",
       "creator": "Robert Thorogood",
@@ -148,10 +149,10 @@
       "until": "2026-11-30",
       "untilApprox": true,
       "why": "Sonne, Rätsel und ein Inspektor, der nie in die Hitze passt. Krimi zum Entspannen.",
-      "year": 2011,
-      "id": "s-death-in-paradise"
+      "year": 2011
     },
     {
+      "id": "s-die-kaiserin",
       "blurb": "Elisabeth heiratet Kaiser Franz Joseph und gerät am Wiener Hof in eine Welt voller Intrigen.",
       "country": "Deutschland",
       "creator": "Katharina Eyssen",
@@ -163,10 +164,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Opulente, moderne Sisi-Erzählung mit Devrim Lingnau.",
-      "year": 2022,
-      "id": "s-die-kaiserin"
+      "year": 2022
     },
     {
+      "id": "s-doc-martin",
       "blurb": "Ein brillanter, aber unhöflicher Chirurg wird Landarzt in einem kornischen Fischerdorf voller Exzentriker.",
       "country": "GB",
       "creator": "Dominic Minghella",
@@ -178,10 +179,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Trockener britischer Humor und ein herrlich griesgrämiger Held.",
-      "year": 2004,
-      "id": "s-doc-martin"
+      "year": 2004
     },
     {
+      "id": "s-doppelhaushaelfte",
       "blurb": "Eine Berliner Familie zieht an den Stadtrand, Wand an Wand mit sehr anderen Nachbarn.",
       "country": "Deutschland",
       "creator": "Sebastian Andrae",
@@ -193,10 +194,10 @@
       "until": "2026-11-30",
       "untilApprox": true,
       "why": "Herzliche Comedy über Nachbarschaft und Vorurteile, kurz und gut gelaunt.",
-      "year": 2022,
-      "id": "s-doppelhaushaelfte"
+      "year": 2022
     },
     {
+      "id": "s-fallout",
       "blurb": "Eine Bewohnerin eines Atombunkers betritt 200 Jahre nach dem Krieg die verwüstete Oberfläche.",
       "country": "USA",
       "creator": "Jonathan Nolan, Lisa Joy",
@@ -208,10 +209,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Endzeit mit schwarzem Humor und Fünfziger-Jahre-Charme.",
-      "year": 2024,
-      "id": "s-fallout"
+      "year": 2024
     },
     {
+      "id": "s-fleabag",
       "blurb": "Eine Londonerin mit Café, Wut und Familie spricht direkt in die Kamera.",
       "country": "GB",
       "creator": "Phoebe Waller-Bridge",
@@ -223,10 +224,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Zwölf kurze Folgen voller Pointen, die am Ende mitten ins Herz treffen.",
-      "year": 2016,
-      "id": "s-fleabag"
+      "year": 2016
     },
     {
+      "id": "s-good-omens",
       "blurb": "Ein Engel und ein Dämon wollen den Weltuntergang verhindern, weil sie die Erde mögen.",
       "country": "GB/USA",
       "creator": "Neil Gaiman",
@@ -238,10 +239,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Michael Sheen und David Tennant als göttlich-teuflisches Paar. Very British.",
-      "year": 2019,
-      "id": "s-good-omens"
+      "year": 2019
     },
     {
+      "id": "s-happy-valley",
       "blurb": "Polizistin Catherine Cawood trifft in Yorkshire wieder auf den Mann, der ihre Familie zerstört hat.",
       "country": "GB",
       "creator": "Sally Wainwright",
@@ -253,10 +254,10 @@
       "until": "2026-11-30",
       "untilApprox": true,
       "why": "Eine der besten Krimiserien überhaupt. Hart, menschlich und unglaublich gut gespielt.",
-      "year": 2014,
-      "id": "s-happy-valley"
+      "year": 2014
     },
     {
+      "id": "s-karen-pirie",
       "blurb": "Eine junge Ermittlerin rollt in Schottland einen 25 Jahre alten Mord neu auf.",
       "country": "GB",
       "creator": "Emer Kenny",
@@ -268,10 +269,10 @@
       "until": "2026-11-30",
       "untilApprox": true,
       "why": "Atmosphärischer Krimi nach Val McDermid, mit einer Heldin, die man sofort mag.",
-      "year": 2022,
-      "id": "s-karen-pirie"
+      "year": 2022
     },
     {
+      "id": "s-kir-royal",
       "blurb": "Klatschreporter Baby Schimmerlos jagt durch die Münchner Schickeria der Achtziger.",
       "country": "Deutschland",
       "creator": "Helmut Dietl",
@@ -283,10 +284,10 @@
       "until": "2026-12-31",
       "untilApprox": true,
       "why": "Dietls bissige Satire. Ein Klassiker mit Sätzen, die man noch heute zitiert.",
-      "year": 1986,
-      "id": "s-kir-royal"
+      "year": 1986
     },
     {
+      "id": "s-life-on-mars",
       "blurb": "Ein Polizist hat einen Unfall und wacht im Manchester des Jahres 1973 auf.",
       "country": "GB",
       "creator": "Matthew Graham u. a.",
@@ -298,10 +299,10 @@
       "until": "2026-11-30",
       "untilApprox": true,
       "why": "Krimi, Zeitreise und Komödie in einem, mit wunderbar unkorrektem Chef.",
-      "year": 2006,
-      "id": "s-life-on-mars"
+      "year": 2006
     },
     {
+      "id": "s-mayor-of-kingstown",
       "blurb": "In einer Gefängnisstadt in Michigan hält ein Mittelsmann die Balance zwischen Gangs und Polizei.",
       "country": "USA",
       "creator": "Taylor Sheridan, Hugh Dillon",
@@ -313,10 +314,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Harter, atmosphärischer Krimi mit einem starken Jeremy Renner.",
-      "year": 2021,
-      "id": "s-mayor-of-kingstown"
+      "year": 2021
     },
     {
+      "id": "s-mrs-maisel",
       "blurb": "Eine New Yorker Hausfrau entdeckt 1958 ihr Talent für Stand-up-Comedy.",
       "country": "USA",
       "creator": "Amy Sherman-Palladino",
@@ -328,10 +329,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Pastellfarben, schnelle Dialoge, Glamour. Pure Lebensfreude.",
-      "year": 2017,
-      "id": "s-mrs-maisel"
+      "year": 2017
     },
     {
+      "id": "s-north-of-north",
       "blurb": "Eine junge Inuk-Mutter beginnt in ihrem arktischen Dorf ein neues Leben.",
       "country": "Kanada",
       "creator": "Stacey Aglok MacDonald, Anna Lambe",
@@ -343,10 +344,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Warmherzige Sitcom mit viel Witz aus einer selten gezeigten Welt.",
-      "year": 2025,
-      "id": "s-north-of-north"
+      "year": 2025
     },
     {
+      "id": "s-patrick-melrose",
       "blurb": "Ein Aristokrat kämpft sich durch Sucht und die Erinnerung an seinen grausamen Vater.",
       "country": "GB",
       "creator": "Edward Berger",
@@ -358,10 +359,10 @@
       "until": "2026-11-30",
       "untilApprox": true,
       "why": "Benedict Cumberbatch in der Rolle seines Lebens. Bitter und brillant komisch.",
-      "year": 2018,
-      "id": "s-patrick-melrose"
+      "year": 2018
     },
     {
+      "id": "s-person-of-interest",
       "blurb": "Eine Überwachungs-KI sagt Verbrechen voraus – ein Milliardär und ein Ex-Agent versuchen, sie zu verhindern.",
       "country": "USA",
       "creator": "Jonathan Nolan",
@@ -373,10 +374,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Startet als Krimi der Woche und wird zum klugen, packenden Thriller über Überwachung.",
-      "year": 2011,
-      "id": "s-person-of-interest"
+      "year": 2011
     },
     {
+      "id": "s-sex-education",
       "blurb": "Der Sohn einer Sextherapeutin eröffnet an seiner Schule eine heimliche Beratungsstelle.",
       "country": "GB",
       "creator": "Laurie Nunn",
@@ -388,10 +389,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Warm, ehrlich und komisch, in bunter Kulisse irgendwo zwischen England und Amerika.",
-      "year": 2019,
-      "id": "s-sex-education"
+      "year": 2019
     },
     {
+      "id": "s-suits",
       "blurb": "Ein brillanter Studienabbrecher ohne Abschluss arbeitet heimlich als Anwalt in einer New Yorker Topkanzlei.",
       "country": "USA",
       "creator": "Aaron Korsh",
@@ -403,10 +404,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Schlagfertige Dialoge, cooles Duo, hoher Suchtfaktor.",
-      "year": 2011,
-      "id": "s-suits"
+      "year": 2011
     },
     {
+      "id": "s-the-great",
       "blurb": "Die junge Katharina heiratet den russischen Zaren und plant bald, ihn zu stürzen.",
       "country": "GB/USA",
       "creator": "Tony McNamara",
@@ -418,10 +419,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Bonbonbunte Hofkomödie mit Elle Fanning. Völlig respektlos und sehr witzig.",
-      "year": 2020,
-      "id": "s-the-great"
+      "year": 2020
     },
     {
+      "id": "s-the-miniaturist",
       "blurb": "Amsterdam 1686: Die junge Nella heiratet einen Kaufmann und stößt auf ein Haus voller Geheimnisse.",
       "country": "GB",
       "creator": "John Brownlow",
@@ -433,10 +434,10 @@
       "until": "2026-11-11",
       "untilApprox": false,
       "why": "Atmosphärisches, elegant gefilmtes Historien-Mysterium in nur drei Folgen.",
-      "year": 2017,
-      "id": "s-the-miniaturist"
+      "year": 2017
     },
     {
+      "id": "s-the-night-of",
       "blurb": "Nach einer Partynacht wacht ein Student neben einer Toten auf und wird angeklagt.",
       "country": "USA",
       "creator": "Richard Price, Steven Zaillian",
@@ -448,10 +449,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Packendes Justizdrama über Schuld und ein System, das Menschen zermahlt.",
-      "year": 2016,
-      "id": "s-the-night-of"
+      "year": 2016
     },
     {
+      "id": "s-total-control",
       "blurb": "Eine indigene Frau wird in den Senat geholt, um der Premierministerin zu nützen – und schlägt zurück.",
       "country": "Australien",
       "creator": "Darren Dale, Miranda Dear, Rachel Perkins",
@@ -463,10 +464,10 @@
       "until": null,
       "untilApprox": false,
       "why": "Scharfes Politdrama mit einer überragenden Deborah Mailman und Rachel Griffiths.",
-      "year": 2019,
-      "id": "s-total-control"
+      "year": 2019
     },
     {
+      "id": "s-twin-peaks",
       "blurb": "Wer hat Laura Palmer getötet? FBI-Agent Cooper ermittelt in einer seltsamen Kleinstadt.",
       "country": "USA",
       "creator": "David Lynch, Mark Frost",
@@ -478,10 +479,10 @@
       "until": "2026-11-30",
       "untilApprox": true,
       "why": "Kirschkuchen, Kaffee und Albträume. Lynchs Kult hat das Serienfernsehen verändert.",
-      "year": 1990,
-      "id": "s-twin-peaks"
+      "year": 1990
     },
     {
+      "id": "s-wednesday",
       "blurb": "Wednesday Addams kommt auf ein Internat für Außenseiter und gerät in eine Mordserie.",
       "country": "USA",
       "creator": "Alfred Gough, Miles Millar",
@@ -493,8 +494,7 @@
       "until": null,
       "untilApprox": false,
       "why": "Schwarzer Humor mit Tim-Burton-Schick. Gruselig, aber vor allem lustig.",
-      "year": 2022,
-      "id": "s-wednesday"
+      "year": 2022
     }
   ]
 }
