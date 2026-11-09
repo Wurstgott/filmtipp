@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-08",
+  "researchedAt": "2026-11-09",
   "sources": "ARD Mediathek, ZDF Mediathek, arte, Netflix und Prime Video",
   "films": [
     {
@@ -213,21 +213,6 @@
       "year": 2022
     },
     {
-      "id": "eismayer",
-      "blurb": "Ein gefürchteter Ausbilder beim Bundesheer verbirgt seine Homosexualität, bis ein Rekrut kommt.",
-      "country": "Österreich",
-      "director": "David Wagner",
-      "imdb": 7,
-      "minutes": 87,
-      "mood": "duester",
-      "provider": "zdf",
-      "title": "Eismayer",
-      "until": "2026-11-08",
-      "untilApprox": false,
-      "why": "Packende wahre Geschichte, in Venedig ausgezeichnet.",
-      "year": 2022
-    },
-    {
       "id": "ernst-sein-ist-alles",
       "blurb": "Zwei Herren geben sich als Ernst aus und stiften in der britischen Oberschicht Verwirrung.",
       "country": "GB/USA",
@@ -255,21 +240,6 @@
       "until": null,
       "untilApprox": false,
       "why": "Indiens wildes Gangsterepos, oft mit Scorsese verglichen.",
-      "year": 2012
-    },
-    {
-      "id": "gnade",
-      "blurb": "In der Polarnacht Hammerfests verschweigt ein deutsches Paar einen tödlichen Unfall.",
-      "country": "Deutschland/Norwegen",
-      "director": "Matthias Glasner",
-      "imdb": 6.7,
-      "minutes": 127,
-      "mood": "duester",
-      "provider": "arte",
-      "title": "Gnade",
-      "until": "2026-11-08",
-      "untilApprox": true,
-      "why": "Schuld und Vergebung unter einem Himmel, der nie hell wird. Mit Jürgen Vogel und Birgit Minichmayr.",
       "year": 2012
     },
     {
