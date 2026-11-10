@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-10",
   "sources": "ARD Mediathek, ZDF Mediathek, arte, Netflix und Prime Video",
   "films": [
     {
@@ -166,21 +166,6 @@
       "untilApprox": false,
       "why": "Vierfacher Oscar-Gewinner und eine der einflussreichsten romantischen Komödien.",
       "year": 1977
-    },
-    {
-      "id": "der-sternwanderer",
-      "blurb": "Ein junger Mann sucht im Märchenland einen gefallenen Stern und findet eine Frau.",
-      "country": "GB/USA",
-      "director": "Matthew Vaughn",
-      "imdb": 7.6,
-      "minutes": 127,
-      "mood": "heiter",
-      "provider": "arte",
-      "title": "Der Sternwanderer",
-      "until": "2026-11-09",
-      "untilApprox": false,
-      "why": "Charmantes Fantasy-Abenteuer mit viel Witz und Robert De Niro als Luftpirat.",
-      "year": 2007
     },
     {
       "id": "die-bruecke-am-kwai",
