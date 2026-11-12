@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-10",
+  "researchedAt": "2026-11-12",
   "series": [
     {
       "id": "s-adolescence",
@@ -420,21 +420,6 @@
       "untilApprox": false,
       "why": "Bonbonbunte Hofkomödie mit Elle Fanning. Völlig respektlos und sehr witzig.",
       "year": 2020
-    },
-    {
-      "id": "s-the-miniaturist",
-      "blurb": "Amsterdam 1686: Die junge Nella heiratet einen Kaufmann und stößt auf ein Haus voller Geheimnisse.",
-      "country": "GB",
-      "creator": "John Brownlow",
-      "imdb": 7,
-      "mood": "duester",
-      "provider": "ard",
-      "seasons": 1,
-      "title": "The Miniaturist – Die Magie der kleinen Dinge",
-      "until": "2026-11-11",
-      "untilApprox": false,
-      "why": "Atmosphärisches, elegant gefilmtes Historien-Mysterium in nur drei Folgen.",
-      "year": 2017
     },
     {
       "id": "s-the-night-of",
