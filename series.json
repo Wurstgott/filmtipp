@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-12",
+  "researchedAt": "2026-11-16",
   "series": [
     {
       "id": "s-adolescence",
@@ -152,6 +152,21 @@
       "year": 2011
     },
     {
+      "id": "s-die-bruecke",
+      "blurb": "Auf der Öresundbrücke wird eine Leiche gefunden, ein schwedisch-dänisches Duo ermittelt.",
+      "country": "S/DK",
+      "creator": "Hans Rosenfeldt",
+      "imdb": 8.6,
+      "mood": "duester",
+      "provider": "arte",
+      "seasons": 4,
+      "title": "Die Brücke – Transit in den Tod",
+      "until": "2026-12-14",
+      "untilApprox": false,
+      "why": "Prägender Nordic Noir mit Saga Norén als einer der besten TV-Ermittlerinnen überhaupt.",
+      "year": 2011
+    },
+    {
       "id": "s-die-kaiserin",
       "blurb": "Elisabeth heiratet Kaiser Franz Joseph und gerät am Wiener Hof in eine Welt voller Intrigen.",
       "country": "Deutschland",
@@ -242,6 +257,21 @@
       "year": 2019
     },
     {
+      "id": "s-grantchester",
+      "blurb": "Im Cambridgeshire der 1950er löst ein jazzliebender Vikar mit einem raubeinigen Inspector Mordfälle.",
+      "country": "GB",
+      "creator": "Daisy Coulam",
+      "imdb": 7.9,
+      "mood": "duester",
+      "provider": "ard",
+      "seasons": 3,
+      "title": "Grantchester",
+      "until": "2026-12-07",
+      "untilApprox": true,
+      "why": "Stimmungsvoller britischer Krimi mit Herz und starkem Ermittlerduo.",
+      "year": 2014
+    },
+    {
       "id": "s-happy-valley",
       "blurb": "Polizistin Catherine Cawood trifft in Yorkshire wieder auf den Mann, der ihre Familie zerstört hat.",
       "country": "GB",
@@ -317,6 +347,21 @@
       "year": 2021
     },
     {
+      "id": "s-monaco-franze",
+      "blurb": "Münchner Kommissar Franz Münchinger kann trotz Ehe das Flirten mit schönen Frauen nicht lassen.",
+      "country": "D",
+      "creator": "Helmut Dietl",
+      "imdb": 8.3,
+      "mood": "heiter",
+      "provider": "ard",
+      "seasons": 1,
+      "title": "Monaco Franze – Der ewige Stenz",
+      "until": "2026-12-14",
+      "untilApprox": false,
+      "why": "Dietls Kultklassiker mit Helmut Fischer: bayerischer Charme und Witz, der nicht altert.",
+      "year": 1983
+    },
+    {
       "id": "s-mrs-maisel",
       "blurb": "Eine New Yorker Hausfrau entdeckt 1958 ihr Talent für Stand-up-Comedy.",
       "country": "USA",
@@ -377,6 +422,21 @@
       "year": 2011
     },
     {
+      "id": "s-please-like-me",
+      "blurb": "Mittzwanziger Josh outet sich als schwul und kümmert sich zugleich um seine depressive Mutter.",
+      "country": "AUS",
+      "creator": "Josh Thomas",
+      "imdb": 8.5,
+      "mood": "heiter",
+      "provider": "arte",
+      "seasons": 4,
+      "title": "Please Like Me",
+      "until": "2026-12-07",
+      "untilApprox": true,
+      "why": "Zärtliche, lustige und ehrliche Dramedy, ein echter Kritikerliebling.",
+      "year": 2013
+    },
+    {
       "id": "s-sex-education",
       "blurb": "Der Sohn einer Sextherapeutin eröffnet an seiner Schule eine heimliche Beratungsstelle.",
       "country": "GB",
@@ -390,6 +450,21 @@
       "untilApprox": false,
       "why": "Warm, ehrlich und komisch, in bunter Kulisse irgendwo zwischen England und Amerika.",
       "year": 2019
+    },
+    {
+      "id": "s-stromberg",
+      "blurb": "Mockumentary über Bernd Stromberg, den selbstverliebten Abteilungsleiter einer Versicherung.",
+      "country": "D",
+      "creator": "Ralf Husmann",
+      "imdb": 8.4,
+      "mood": "heiter",
+      "provider": "prime",
+      "seasons": 5,
+      "title": "Stromberg",
+      "until": null,
+      "untilApprox": false,
+      "why": "Die beste deutsche Büro-Comedy, Christoph Maria Herbst ist unvergesslich peinlich.",
+      "year": 2004
     },
     {
       "id": "s-suits",
@@ -437,6 +512,21 @@
       "year": 2016
     },
     {
+      "id": "s-the-tourist",
+      "blurb": "Nach einem Unfall im australischen Outback wacht ein Mann ohne Gedächtnis auf und wird gejagt.",
+      "country": "GB",
+      "creator": "Harry und Jack Williams",
+      "imdb": 7.1,
+      "mood": "duester",
+      "provider": "zdf",
+      "seasons": 2,
+      "title": "The Tourist – Duell im Outback",
+      "until": "2026-12-07",
+      "untilApprox": true,
+      "why": "Spannender Thriller mit Jamie Dornan, schwarzem Humor und vielen Wendungen.",
+      "year": 2022
+    },
+    {
       "id": "s-total-control",
       "blurb": "Eine indigene Frau wird in den Senat geholt, um der Premierministerin zu nützen – und schlägt zurück.",
       "country": "Australien",
@@ -467,6 +557,21 @@
       "year": 1990
     },
     {
+      "id": "s-undercover-im-seniorenheim",
+      "blurb": "Ein verwitweter Rentner wird als Undercover-Ermittler in ein Seniorenheim eingeschleust.",
+      "country": "USA",
+      "creator": "Michael Schur",
+      "imdb": 7.6,
+      "mood": "heiter",
+      "provider": "netflix",
+      "seasons": 2,
+      "title": "Undercover im Seniorenheim",
+      "until": null,
+      "untilApprox": false,
+      "why": "Warmherzige Comedy vom Good-Place-Macher mit einem wunderbaren Ted Danson.",
+      "year": 2024
+    },
+    {
       "id": "s-wednesday",
       "blurb": "Wednesday Addams kommt auf ein Internat für Außenseiter und gerät in eine Mordserie.",
       "country": "USA",
@@ -480,6 +585,21 @@
       "untilApprox": false,
       "why": "Schwarzer Humor mit Tim-Burton-Schick. Gruselig, aber vor allem lustig.",
       "year": 2022
+    },
+    {
+      "id": "s-weissensee",
+      "blurb": "Ost-Berlin ab 1980: Eine Stasi-Familie und eine Dissidentenfamilie verbindet eine verbotene Liebe.",
+      "country": "D",
+      "creator": "Annette Hess",
+      "imdb": 8.2,
+      "mood": "duester",
+      "provider": "ard",
+      "seasons": 4,
+      "title": "Weissensee",
+      "until": "2026-12-07",
+      "untilApprox": true,
+      "why": "Eines der besten deutschen Seriendramen über die DDR, packend und hervorragend gespielt.",
+      "year": 2010
     }
   ]
 }

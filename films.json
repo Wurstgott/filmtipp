@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-12",
+  "researchedAt": "2026-11-16",
   "sources": "ARD Mediathek, ZDF Mediathek, arte, Netflix und Prime Video",
   "films": [
     {
@@ -33,6 +33,21 @@
       "year": 2011
     },
     {
+      "id": "abteil-nr-6",
+      "blurb": "Eine finnische Studentin teilt im Zug nach Murmansk das Abteil mit einem ruppigen russischen Bergarbeiter.",
+      "country": "FIN/RUS/EST/D",
+      "director": "Juho Kuosmanen",
+      "imdb": 7.2,
+      "minutes": 107,
+      "mood": "heiter",
+      "provider": "arte",
+      "title": "Abteil Nr. 6",
+      "until": "2026-11-21",
+      "untilApprox": false,
+      "why": "Cannes-Grand-Prix: warmherzige, leise komische Annäherung zweier Fremder.",
+      "year": 2021
+    },
+    {
       "id": "anatomie-eines-falls",
       "blurb": "Nach dem Sturz ihres Mannes steht eine Schriftstellerin unter Mordverdacht – vor Gericht zerfällt eine Ehe.",
       "country": "FR",
@@ -61,6 +76,21 @@
       "untilApprox": false,
       "why": "Beklemmendes Märchen, auf der Berlinale mit dem Silbernen Bären fürs Drehbuch geehrt.",
       "year": 2020
+    },
+    {
+      "id": "before-midnight",
+      "blurb": "Jesse und Céline, inzwischen Eltern, verbringen einen Sommerurlaub in Griechenland – und streiten ums Ganze.",
+      "country": "USA/GR",
+      "director": "Richard Linklater",
+      "imdb": 7.9,
+      "minutes": 109,
+      "mood": "heiter",
+      "provider": "ard",
+      "title": "Before Midnight",
+      "until": "2026-12-04",
+      "untilApprox": false,
+      "why": "Krönender Abschluss der Before-Trilogie: klug, witzig und wahrhaftig über die Liebe nach Jahren.",
+      "year": 2013
     },
     {
       "id": "blood-und-sinners",
@@ -228,6 +258,21 @@
       "year": 2012
     },
     {
+      "id": "green-book",
+      "blurb": "Ein italoamerikanischer Türsteher chauffiert 1962 einen schwarzen Starpianisten durch die Südstaaten.",
+      "country": "USA",
+      "director": "Peter Farrelly",
+      "imdb": 8.2,
+      "minutes": 130,
+      "mood": "heiter",
+      "provider": "prime",
+      "title": "Green Book – Eine besondere Freundschaft",
+      "until": null,
+      "untilApprox": false,
+      "why": "Oscar als Bester Film: herzerwärmendes Roadmovie mit Viggo Mortensen und Mahershala Ali.",
+      "year": 2018
+    },
+    {
       "id": "harry-und-sally",
       "blurb": "Können Männer und Frauen befreundet sein? Zwölf Jahre lang streiten Harry und Sally darüber.",
       "country": "USA",
@@ -241,21 +286,6 @@
       "untilApprox": false,
       "why": "Die romantische Komödie, an der sich alle anderen messen.",
       "year": 1989
-    },
-    {
-      "id": "hot-fuzz",
-      "blurb": "Ein Londoner Musterpolizist wird in ein verdächtig friedliches Dorf versetzt.",
-      "country": "GB",
-      "director": "Edgar Wright",
-      "imdb": 7.8,
-      "minutes": 121,
-      "mood": "heiter",
-      "provider": "netflix",
-      "title": "Hot Fuzz",
-      "until": null,
-      "untilApprox": false,
-      "why": "Rasante Actionparodie mit perfektem Timing.",
-      "year": 2007
     },
     {
       "id": "in-der-hitze-der-nacht",
@@ -316,6 +346,21 @@
       "untilApprox": false,
       "why": "Schwarzweißes Porträt mit Albrecht Schuch, beim Deutschen Filmpreis vielfach ausgezeichnet.",
       "year": 2021
+    },
+    {
+      "id": "makkhi-die-rache-der-fliege",
+      "blurb": "Ein ermordeter junger Mann wird als Stubenfliege wiedergeboren und rächt sich an seinem Mörder.",
+      "country": "IND",
+      "director": "S. S. Rajamouli",
+      "imdb": 7.7,
+      "minutes": 145,
+      "mood": "heiter",
+      "provider": "netflix",
+      "title": "Makkhi – Die Rache der Fliege",
+      "until": null,
+      "untilApprox": false,
+      "why": "Herrlich absurdes Effektspektakel vom RRR-Regisseur – irre Prämisse, mitreißend umgesetzt.",
+      "year": 2012
     },
     {
       "id": "manche-moegens-heiss",
@@ -483,6 +528,21 @@
       "year": 2016
     },
     {
+      "id": "the-founder",
+      "blurb": "Vertreter Ray Kroc entdeckt das Burger-Restaurant der McDonald-Brüder und reißt es skrupellos an sich.",
+      "country": "USA",
+      "director": "John Lee Hancock",
+      "imdb": 7.2,
+      "minutes": 115,
+      "mood": "duester",
+      "provider": "zdf",
+      "title": "The Founder",
+      "until": "2026-12-09",
+      "untilApprox": false,
+      "why": "Michael Keaton brilliert als charmanter Hai in einer bitterbösen Geschichte über Erfolg.",
+      "year": 2016
+    },
+    {
       "id": "the-game",
       "blurb": "Ein Investmentbanker erhält zum Geburtstag ein rätselhaftes Spiel, das sein Leben zerlegt.",
       "country": "USA",
@@ -511,6 +571,21 @@
       "untilApprox": true,
       "why": "Brendan Fraser bekam für diese Rolle den Oscar.",
       "year": 2022
+    },
+    {
+      "id": "the-zone-of-interest",
+      "blurb": "Der Auschwitz-Kommandant Höß führt mit seiner Familie ein idyllisches Leben direkt neben der Lagermauer.",
+      "country": "GB/PL/USA",
+      "director": "Jonathan Glazer",
+      "imdb": 7.3,
+      "minutes": 105,
+      "mood": "duester",
+      "provider": "zdf",
+      "title": "The Zone of Interest",
+      "until": "2026-12-09",
+      "untilApprox": false,
+      "why": "Oscar-prämiert und verstörend: Das Grauen bleibt unsichtbar und ist doch überall hörbar.",
+      "year": 2023
     },
     {
       "id": "z-anatomie-eines-politischen-mordes",
