@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-20",
+  "researchedAt": "2026-11-25",
   "sources": "ARD Mediathek, ZDF Mediathek, arte, Netflix und Prime Video",
   "films": [
     {
@@ -31,21 +31,6 @@
       "untilApprox": false,
       "why": "Warmherzig und witzig zugleich, ohne je kitschig zu werden.",
       "year": 2011
-    },
-    {
-      "id": "abteil-nr-6",
-      "blurb": "Eine finnische Studentin teilt im Zug nach Murmansk das Abteil mit einem ruppigen russischen Bergarbeiter.",
-      "country": "FIN/RUS/EST/D",
-      "director": "Juho Kuosmanen",
-      "imdb": 7.2,
-      "minutes": 107,
-      "mood": "heiter",
-      "provider": "arte",
-      "title": "Abteil Nr. 6",
-      "until": "2026-11-21",
-      "untilApprox": false,
-      "why": "Cannes-Grand-Prix: warmherzige, leise komische Annäherung zweier Fremder.",
-      "year": 2021
     },
     {
       "id": "anatomie-eines-falls",
@@ -151,21 +136,6 @@
       "untilApprox": false,
       "why": "Hochemotionales Drama, das in der Türkei zum Kassenschlager wurde.",
       "year": 2019
-    },
-    {
-      "id": "dein-weg",
-      "blurb": "Nach dem Tod seines Sohnes pilgert ein amerikanischer Arzt den Jakobsweg an dessen Stelle zu Ende.",
-      "country": "USA/Spanien",
-      "director": "Emilio Estevez",
-      "imdb": 7.4,
-      "minutes": 123,
-      "mood": "heiter",
-      "provider": "ard",
-      "title": "Dein Weg",
-      "until": "2026-11-24",
-      "untilApprox": false,
-      "why": "Warmherziger Roadmovie mit Martin Sheen und schönen Begegnungen unterwegs.",
-      "year": 2010
     },
     {
       "id": "der-gott-des-gemetzels",
@@ -378,21 +348,6 @@
       "year": 1959
     },
     {
-      "id": "match-point",
-      "blurb": "Ein Tennislehrer heiratet in die Londoner Oberschicht ein und beginnt eine gefährliche Affäre.",
-      "country": "GB",
-      "director": "Woody Allen",
-      "imdb": 7.6,
-      "minutes": 124,
-      "mood": "duester",
-      "provider": "ard",
-      "title": "Match Point",
-      "until": "2026-11-21",
-      "untilApprox": false,
-      "why": "Woody Allens kühlster Film: ein Moralthriller, in dem der Zufall entscheidet.",
-      "year": 2005
-    },
-    {
       "id": "midsommar",
       "blurb": "Dani reist mit Freunden zu einem schwedischen Mittsommerfest, das zum Albtraum wird.",
       "country": "USA/Schweden",
@@ -511,21 +466,6 @@
       "untilApprox": false,
       "why": "Mel Brooks' Star-Wars-Parodie: albern, zitierfähig, Kult.",
       "year": 1987
-    },
-    {
-      "id": "swiss-army-man",
-      "blurb": "Ein Gestrandeter freundet sich mit einer angeschwemmten Leiche an, die erstaunlich nützlich ist.",
-      "country": "USA",
-      "director": "Daniel Kwan, Daniel Scheinert",
-      "imdb": 6.9,
-      "minutes": 97,
-      "mood": "heiter",
-      "provider": "ard",
-      "title": "Swiss Army Man",
-      "until": "2026-11-24",
-      "untilApprox": false,
-      "why": "Herrlich absurde Freundschaftskomödie mit Paul Dano und Daniel Radcliffe.",
-      "year": 2016
     },
     {
       "id": "the-founder",
