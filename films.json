@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-25",
+  "researchedAt": "2026-11-27",
   "sources": "ARD Mediathek, ZDF Mediathek, arte, Netflix und Prime Video",
   "films": [
     {
@@ -108,6 +108,21 @@
       "year": 2006
     },
     {
+      "id": "christiane-f",
+      "blurb": "Eine 13-Jährige gerät im West-Berlin der Siebziger in die Heroinszene am Bahnhof Zoo.",
+      "country": "DE",
+      "director": "Uli Edel",
+      "imdb": 7.3,
+      "minutes": 131,
+      "mood": "duester",
+      "provider": "ard",
+      "title": "Christiane F. – Wir Kinder vom Bahnhof Zoo",
+      "until": "2026-12-18",
+      "untilApprox": true,
+      "why": "Schonungsloser Klassiker des deutschen Kinos mit Bowie-Soundtrack.",
+      "year": 1981
+    },
+    {
       "id": "das-piano",
       "blurb": "Eine stumme Schottin wird nach Neuseeland verheiratet, ihr Klavier bleibt zunächst am Strand zurück.",
       "country": "Neuseeland/Australien",
@@ -138,19 +153,19 @@
       "year": 2019
     },
     {
-      "id": "der-gott-des-gemetzels",
-      "blurb": "Zwei Elternpaare treffen sich nach einem Streit ihrer Söhne, und der Anstand löst sich rasch auf.",
-      "country": "Frankreich/Deutschland",
-      "director": "Roman Polanski",
-      "imdb": 7.2,
-      "minutes": 80,
+      "id": "der-schlimmste-mensch-der-welt",
+      "blurb": "Eine junge Frau in Oslo sucht zwischen zwei Männern und vielen Lebensentwürfen nach sich selbst.",
+      "country": "NO",
+      "director": "Joachim Trier",
+      "imdb": 7.7,
+      "minutes": 128,
       "mood": "heiter",
-      "provider": "zdf",
-      "title": "Der Gott des Gemetzels",
-      "until": "2026-11-26",
-      "untilApprox": false,
-      "why": "Bissiges Kammerspiel mit Foster, Winslet, Waltz und Reilly.",
-      "year": 2011
+      "provider": "ard",
+      "title": "Der schlimmste Mensch der Welt",
+      "until": "2026-12-18",
+      "untilApprox": true,
+      "why": "Witzig, klug und melancholisch – mit einer umwerfenden Renate Reinsve.",
+      "year": 2021
     },
     {
       "id": "der-stadtneurotiker",
@@ -213,6 +228,21 @@
       "year": 2002
     },
     {
+      "id": "forrester-gefunden",
+      "blurb": "Ein schreibbegabter Schüler aus der Bronx freundet sich mit einem zurückgezogenen Schriftsteller an.",
+      "country": "USA",
+      "director": "Gus Van Sant",
+      "imdb": 7.3,
+      "minutes": 136,
+      "mood": "heiter",
+      "provider": "netflix",
+      "title": "Forrester – Gefunden!",
+      "until": null,
+      "untilApprox": false,
+      "why": "Warmherziges Mentorendrama mit einem großartigen Sean Connery.",
+      "year": 2000
+    },
+    {
       "id": "gangs-of-wasseypur",
       "blurb": "Eine Blutfehde zwischen Clans im Kohlerevier von Dhanbad zieht sich über Generationen.",
       "country": "Indien",
@@ -243,6 +273,21 @@
       "year": 2018
     },
     {
+      "id": "hafen-im-nebel",
+      "blurb": "Ein Deserteur strandet in Le Havre und verliebt sich in eine junge Frau mit gefährlichem Vormund.",
+      "country": "FR",
+      "director": "Marcel Carné",
+      "imdb": 7.7,
+      "minutes": 91,
+      "mood": "duester",
+      "provider": "arte",
+      "title": "Hafen im Nebel",
+      "until": "2026-12-18",
+      "untilApprox": true,
+      "why": "Meisterwerk des poetischen Realismus mit Jean Gabin und Michèle Morgan.",
+      "year": 1938
+    },
+    {
       "id": "harry-und-sally",
       "blurb": "Können Männer und Frauen befreundet sein? Zwölf Jahre lang streiten Harry und Sally darüber.",
       "country": "USA",
@@ -271,6 +316,21 @@
       "untilApprox": false,
       "why": "Oscar als bester Film, mit Sidney Poitier und Rod Steiger.",
       "year": 1967
+    },
+    {
+      "id": "in-sachen-sohee",
+      "blurb": "Eine Schülerin zerbricht an einem Callcenter-Praktikum, eine Polizistin rollt den Fall auf.",
+      "country": "KR",
+      "director": "July Jung",
+      "imdb": 7.5,
+      "minutes": 138,
+      "mood": "duester",
+      "provider": "arte",
+      "title": "In Sachen Sohee",
+      "until": "2026-12-18",
+      "untilApprox": true,
+      "why": "Wütendes, präzises Sozialdrama über Ausbeutung junger Arbeitskräfte.",
+      "year": 2022
     },
     {
       "id": "knives-out",
@@ -348,21 +408,6 @@
       "year": 1959
     },
     {
-      "id": "midsommar",
-      "blurb": "Dani reist mit Freunden zu einem schwedischen Mittsommerfest, das zum Albtraum wird.",
-      "country": "USA/Schweden",
-      "director": "Ari Aster",
-      "imdb": 7.1,
-      "minutes": 148,
-      "mood": "duester",
-      "provider": "zdf",
-      "title": "Midsommar",
-      "until": "2026-11-29",
-      "untilApprox": false,
-      "why": "Folk-Horror bei strahlendem Tageslicht, verstörend und bildgewaltig.",
-      "year": 2019
-    },
-    {
       "id": "nocturnal-animals",
       "blurb": "Eine Galeristin bekommt das Manuskript ihres Ex-Mannes, eine brutale Geschichte, die sie nicht loslässt.",
       "country": "USA",
@@ -391,21 +436,6 @@
       "untilApprox": false,
       "why": "Bunt, wild und sehr komisch. Emma Stone bekam dafür den Oscar.",
       "year": 2023
-    },
-    {
-      "id": "rachels-hochzeit",
-      "blurb": "Kym kommt aus der Entzugsklinik zur Hochzeit ihrer Schwester, und alte Wunden brechen auf.",
-      "country": "USA",
-      "director": "Jonathan Demme",
-      "imdb": 6.6,
-      "minutes": 113,
-      "mood": "duester",
-      "provider": "prime",
-      "title": "Rachels Hochzeit",
-      "until": null,
-      "untilApprox": false,
-      "why": "Intensives Familiendrama mit Anne Hathaway, fast wie ein Dokumentarfilm.",
-      "year": 2008
     },
     {
       "id": "reservoir-dogs",
@@ -438,6 +468,36 @@
       "year": 2018
     },
     {
+      "id": "sieben-minuten-nach-mitternacht",
+      "blurb": "Ein Junge, dessen Mutter an Krebs erkrankt ist, bekommt nachts Besuch von einem Baummonster.",
+      "country": "GB/ES",
+      "director": "J. A. Bayona",
+      "imdb": 7.4,
+      "minutes": 108,
+      "mood": "duester",
+      "provider": "netflix",
+      "title": "Sieben Minuten nach Mitternacht",
+      "until": null,
+      "untilApprox": false,
+      "why": "Bildgewaltiges Fantasy-Drama über Trauer, das tief bewegt.",
+      "year": 2016
+    },
+    {
+      "id": "sin-city",
+      "blurb": "Drei verwobene Geschichten über Rache und Korruption in einer verkommenen Stadt.",
+      "country": "USA",
+      "director": "Frank Miller, Robert Rodriguez",
+      "imdb": 8,
+      "minutes": 124,
+      "mood": "duester",
+      "provider": "zdf",
+      "title": "Sin City",
+      "until": "2026-12-18",
+      "untilApprox": true,
+      "why": "Comic-Noir in kontrastreichem Schwarz-Weiß – stilistisch einzigartig.",
+      "year": 2005
+    },
+    {
       "id": "skyfall",
       "blurb": "Ein Angriff auf den MI6 führt Bond in die Vergangenheit von M und zu einem rachsüchtigen Ex-Agenten.",
       "country": "GB/USA",
@@ -468,6 +528,21 @@
       "year": 1987
     },
     {
+      "id": "tatami",
+      "blurb": "Eine iranische Judoka soll bei der WM eine Verletzung vortäuschen, um nicht gegen Israel anzutreten.",
+      "country": "GE/USA",
+      "director": "Guy Nattiv, Zar Amir",
+      "imdb": 7.3,
+      "minutes": 103,
+      "mood": "duester",
+      "provider": "zdf",
+      "title": "Tatami",
+      "until": "2026-12-18",
+      "untilApprox": true,
+      "why": "Hochspannendes Sportdrama in Schwarz-Weiß über Mut und Repression.",
+      "year": 2023
+    },
+    {
       "id": "the-founder",
       "blurb": "Vertreter Ray Kroc entdeckt das Burger-Restaurant der McDonald-Brüder und reißt es skrupellos an sich.",
       "country": "USA",
@@ -483,34 +558,19 @@
       "year": 2016
     },
     {
-      "id": "the-game",
-      "blurb": "Ein Investmentbanker erhält zum Geburtstag ein rätselhaftes Spiel, das sein Leben zerlegt.",
-      "country": "USA",
-      "director": "David Fincher",
-      "imdb": 7.7,
-      "minutes": 129,
-      "mood": "duester",
-      "provider": "arte",
-      "title": "The Game",
-      "until": "2026-11-26",
-      "untilApprox": false,
-      "why": "Fincher-Thriller mit Michael Douglas, der bis zuletzt falsche Fährten legt.",
-      "year": 1997
-    },
-    {
-      "id": "the-whale",
-      "blurb": "Ein zurückgezogen lebender Englischlehrer versucht, sich mit seiner entfremdeten Tochter zu versöhnen.",
-      "country": "USA",
-      "director": "Darren Aronofsky",
-      "imdb": 7.6,
-      "minutes": 117,
-      "mood": "duester",
+      "id": "the-straight-story",
+      "blurb": "Ein alter Mann fährt auf einem Rasenmäher Hunderte Meilen, um sich mit seinem kranken Bruder zu versöhnen.",
+      "country": "USA/FR",
+      "director": "David Lynch",
+      "imdb": 8,
+      "minutes": 112,
+      "mood": "heiter",
       "provider": "ard",
-      "title": "The Whale",
-      "until": "2026-11-26",
+      "title": "The Straight Story – Eine wahre Geschichte",
+      "until": "2026-12-18",
       "untilApprox": true,
-      "why": "Brendan Fraser bekam für diese Rolle den Oscar.",
-      "year": 2022
+      "why": "Lynchs sanftester Film: warmherzig, ruhig und tief berührend.",
+      "year": 1999
     },
     {
       "id": "the-zone-of-interest",
